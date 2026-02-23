@@ -2,7 +2,7 @@
   <img src="assets/logo.png" alt="Logo" width="180">
 </p>
 
-<h1 align="center">Учебный центр</h1>
+<h1 align="center">Учебный центр <br> Кашкин Роман 328</h1>
 
 <p align="center">
   Ниже представлена концептуальная модель пользовательского интерфейса
