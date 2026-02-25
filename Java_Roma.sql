@@ -84,12 +84,19 @@ CREATE TABLE schedule (
   start_at   TIMESTAMPTZ NOT NULL,
   end_at     TIMESTAMPTZ NOT NULL,
   CONSTRAINT fk_schedule_course
-    FOREIGN KEY (course_id) REFERENCES courses(id)
+    FOREIGN KEY (course_id)
+    REFERENCES courses(id)
     ON DELETE CASCADE,
   CONSTRAINT fk_schedule_teacher
-    FOREIGN KEY (teacher_id) REFERENCES teachers(id)
+    FOREIGN KEY (teacher_id)
+    REFERENCES teachers(id)
+    ON DELETE RESTRICT,
+  CONSTRAINT fk_schedule_course_teacher
+    FOREIGN KEY (course_id, teacher_id)
+    REFERENCES course_teachers(course_id, teacher_id)
     ON DELETE RESTRICT,
   CONSTRAINT ck_schedule_time
     CHECK (end_at > start_at)
 );
+
 
