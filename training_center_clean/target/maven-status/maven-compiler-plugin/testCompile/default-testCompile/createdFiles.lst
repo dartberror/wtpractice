@@ -1,0 +1,6 @@
+training_center\dao\ScheduleDaoTest.class
+training_center\dao\CourseDaoTest.class
+training_center\dao\StudentDaoTest.class
+training_center\dao\AbstractDaoIntegrationTest.class
+training_center\dao\CompanyDaoTest.class
+training_center\dao\TeacherDaoTest.class

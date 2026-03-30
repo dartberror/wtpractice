@@ -1,0 +1,5677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="31.532" tests="75" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\dartb\eclipse-workspace\training_center_clean\target\test-classes;C:\Users\dartb\eclipse-workspace\training_center_clean\target\classes;C:\Users\dartb\.m2\repository\org\springframework\spring-context\6.1.8\spring-context-6.1.8.jar;C:\Users\dartb\.m2\repository\org\springframework\spring-aop\6.1.8\spring-aop-6.1.8.jar;C:\Users\dartb\.m2\repository\org\springframework\spring-beans\6.1.8\spring-beans-6.1.8.jar;C:\Users\dartb\.m2\repository\org\springframework\spring-core\6.1.8\spring-core-6.1.8.jar;C:\Users\dartb\.m2\repository\org\springframework\spring-jcl\6.1.8\spring-jcl-6.1.8.jar;C:\Users\dartb\.m2\repository\org\springframework\spring-expression\6.1.8\spring-expression-6.1.8.jar;C:\Users\dartb\.m2\repository\io\micrometer\micrometer-observation\1.12.6\micrometer-observation-1.12.6.jar;C:\Users\dartb\.m2\repository\io\micrometer\micrometer-commons\1.12.6\micrometer-commons-1.12.6.jar;C:\Users\dartb\.m2\repository\org\springframework\spring-orm\6.1.8\spring-orm-6.1.8.jar;C:\Users\dartb\.m2\repository\org\springframework\spring-tx\6.1.8\spring-tx-6.1.8.jar;C:\Users\dartb\.m2\repository\org\springframework\spring-jdbc\6.1.8\spring-jdbc-6.1.8.jar;C:\Users\dartb\.m2\repository\org\hibernate\orm\hibernate-core\6.4.4.Final\hibernate-core-6.4.4.Final.jar;C:\Users\dartb\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\dartb\.m2\repository\org\jboss\logging\jboss-logging\3.5.0.Final\jboss-logging-3.5.0.Final.jar;C:\Users\dartb\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\dartb\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\dartb\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\dartb\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\dartb\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar;C:\Users\dartb\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.0\jakarta.activation-api-2.1.0.jar;C:\Users\dartb\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.2\jaxb-runtime-4.0.2.jar;C:\Users\dartb\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.2\jaxb-core-4.0.2.jar;C:\Users\dartb\.m2\repository\org\eclipse\angus\angus-activation\2.0.0\angus-activation-2.0.0.jar;C:\Users\dartb\.m2\repository\org\glassfish\jaxb\txw2\4.0.2\txw2-4.0.2.jar;C:\Users\dartb\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.1\istack-commons-runtime-4.1.1.jar;C:\Users\dartb\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\dartb\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\dartb\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\dartb\.m2\repository\org\postgresql\postgresql\42.7.3\postgresql-42.7.3.jar;C:\Users\dartb\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\dartb\.m2\repository\org\slf4j\slf4j-simple\2.0.12\slf4j-simple-2.0.12.jar;C:\Users\dartb\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\dartb\.m2\repository\org\springframework\spring-test\6.1.8\spring-test-6.1.8.jar;C:\Users\dartb\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\dartb\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\dartb\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\dartb\.m2\repository\org\mockito\mockito-core\5.12.0\mockito-core-5.12.0.jar;C:\Users\dartb\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.15\byte-buddy-agent-1.14.15.jar;C:\Users\dartb\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;"/>
+    <property name="java.vm.vendor" value="Microsoft"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://www.microsoft.com"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Microsoft\jdk-17.0.18.8-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\dartb\AppData\Local\Temp\surefire2414184745178342495\surefirebooter-20260330155621993_3.jar C:\Users\dartb\AppData\Local\Temp\surefire2414184745178342495 2026-03-30T15-56-21_709-jvmRun1 surefire-20260330155621993_1tmp surefire_0-20260330155621993_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\dartb\eclipse-workspace\training_center_clean\target\test-classes;C:\Users\dartb\eclipse-workspace\training_center_clean\target\classes;C:\Users\dartb\.m2\repository\org\springframework\spring-context\6.1.8\spring-context-6.1.8.jar;C:\Users\dartb\.m2\repository\org\springframework\spring-aop\6.1.8\spring-aop-6.1.8.jar;C:\Users\dartb\.m2\repository\org\springframework\spring-beans\6.1.8\spring-beans-6.1.8.jar;C:\Users\dartb\.m2\repository\org\springframework\spring-core\6.1.8\spring-core-6.1.8.jar;C:\Users\dartb\.m2\repository\org\springframework\spring-jcl\6.1.8\spring-jcl-6.1.8.jar;C:\Users\dartb\.m2\repository\org\springframework\spring-expression\6.1.8\spring-expression-6.1.8.jar;C:\Users\dartb\.m2\repository\io\micrometer\micrometer-observation\1.12.6\micrometer-observation-1.12.6.jar;C:\Users\dartb\.m2\repository\io\micrometer\micrometer-commons\1.12.6\micrometer-commons-1.12.6.jar;C:\Users\dartb\.m2\repository\org\springframework\spring-orm\6.1.8\spring-orm-6.1.8.jar;C:\Users\dartb\.m2\repository\org\springframework\spring-tx\6.1.8\spring-tx-6.1.8.jar;C:\Users\dartb\.m2\repository\org\springframework\spring-jdbc\6.1.8\spring-jdbc-6.1.8.jar;C:\Users\dartb\.m2\repository\org\hibernate\orm\hibernate-core\6.4.4.Final\hibernate-core-6.4.4.Final.jar;C:\Users\dartb\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\dartb\.m2\repository\org\jboss\logging\jboss-logging\3.5.0.Final\jboss-logging-3.5.0.Final.jar;C:\Users\dartb\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\dartb\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\dartb\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\dartb\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\dartb\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar;C:\Users\dartb\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.0\jakarta.activation-api-2.1.0.jar;C:\Users\dartb\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.2\jaxb-runtime-4.0.2.jar;C:\Users\dartb\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.2\jaxb-core-4.0.2.jar;C:\Users\dartb\.m2\repository\org\eclipse\angus\angus-activation\2.0.0\angus-activation-2.0.0.jar;C:\Users\dartb\.m2\repository\org\glassfish\jaxb\txw2\4.0.2\txw2-4.0.2.jar;C:\Users\dartb\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.1\istack-commons-runtime-4.1.1.jar;C:\Users\dartb\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\dartb\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\dartb\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\dartb\.m2\repository\org\postgresql\postgresql\42.7.3\postgresql-42.7.3.jar;C:\Users\dartb\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\dartb\.m2\repository\org\slf4j\slf4j-simple\2.0.12\slf4j-simple-2.0.12.jar;C:\Users\dartb\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\dartb\.m2\repository\org\springframework\spring-test\6.1.8\spring-test-6.1.8.jar;C:\Users\dartb\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\dartb\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\dartb\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\dartb\.m2\repository\org\mockito\mockito-core\5.12.0\mockito-core-5.12.0.jar;C:\Users\dartb\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.15\byte-buddy-agent-1.14.15.jar;C:\Users\dartb\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\dartb"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="C:\Program Files\Microsoft\jdk-17.0.18.8-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\dartb\eclipse-workspace\training_center_clean"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\dartb\AppData\Local\Temp\surefire2414184745178342495\surefirebooter-20260330155621993_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.18+8-LTS"/>
+    <property name="user.name" value="dartb"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Microsoft-13106358"/>
+    <property name="localRepository" value="C:\Users\dartb\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\dartb\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.18"/>
+    <property name="user.dir" value="C:\Users\dartb\eclipse-workspace\training_center_clean"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Microsoft\jdk-17.0.18.8-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/dartb/eclipse-workspace/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.10.v20260205-0638/jre/bin/server;C:/Users/dartb/eclipse-workspace/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.10.v20260205-0638/jre/bin;C:\Program Files\Microsoft\jdk-17.0.18.8-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\dartb\AppData\Local\Microsoft\WindowsApps;C:\Users\dartb\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\Windows\system32;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Microsoft"/>
+    <property name="java.vm.version" value="17.0.18+8-LTS"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="deleteById_shouldDeleteCompany" classname="training_center.dao.CompanyDaoTest" time="0.392">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.address,
+        c1_0.name 
+    from
+        companies c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    delete 
+    from
+        companies 
+    where
+        id=?
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.address,
+        c1_0.name 
+    from
+        companies c1_0 
+    where
+        c1_0.id=?
+]]></system-out>
+    <system-err><![CDATA[[main] WARN org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'persistenceConfig' of type [training_center.config.PersistenceConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [exceptionTranslation] is declared through a non-static factory method on that class; consider declaring it as static instead.
+мар. 30, 2026 3:56:25 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [name: default]
+мар. 30, 2026 3:56:25 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate ORM core version 6.4.4.Final
+мар. 30, 2026 3:56:26 PM org.hibernate.cache.internal.RegionFactoryInitiator initiateService
+INFO: HHH000026: Second-level cache disabled
+[main] INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+мар. 30, 2026 3:56:27 PM org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl constructDialect
+WARN: HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+мар. 30, 2026 3:56:29 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[main] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+]]></system-err>
+  </testcase>
+  <testcase name="deleteById_shouldDoNothing_whenCompanyNotExists" classname="training_center.dao.CompanyDaoTest" time="0.267">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.address,
+        c1_0.name 
+    from
+        companies c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.address,
+        c1_0.name 
+    from
+        companies c1_0 
+    order by
+        c1_0.name
+]]></system-out>
+  </testcase>
+  <testcase name="delete_shouldRemoveDetachedCompany" classname="training_center.dao.CompanyDaoTest" time="0.235">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.address,
+        c1_0.name 
+    from
+        companies c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    delete 
+    from
+        companies 
+    where
+        id=?
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.address,
+        c1_0.name 
+    from
+        companies c1_0 
+    where
+        c1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="delete_shouldRemoveManagedCompany" classname="training_center.dao.CompanyDaoTest" time="0.319">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.address,
+        c1_0.name 
+    from
+        companies c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    delete 
+    from
+        companies 
+    where
+        id=?
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.address,
+        c1_0.name 
+    from
+        companies c1_0 
+    where
+        c1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="findAll_shouldReturnSorted" classname="training_center.dao.CompanyDaoTest" time="0.206">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.address,
+        c1_0.name 
+    from
+        companies c1_0 
+    order by
+        c1_0.name
+]]></system-out>
+  </testcase>
+  <testcase name="findById_shouldReturnNull_whenCompanyNotExists" classname="training_center.dao.CompanyDaoTest" time="0.056">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.address,
+        c1_0.name 
+    from
+        companies c1_0 
+    where
+        c1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="save_and_findById" classname="training_center.dao.CompanyDaoTest" time="0.113">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.address,
+        c1_0.name 
+    from
+        companies c1_0 
+    where
+        c1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="update_shouldUpdateCompany" classname="training_center.dao.CompanyDaoTest" time="0.222">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.address,
+        c1_0.name 
+    from
+        companies c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    update
+        companies 
+    set
+        address=?,
+        name=? 
+    where
+        id=?
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.address,
+        c1_0.name 
+    from
+        companies c1_0 
+    where
+        c1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="addStudentToCourse_shouldNotDuplicateRelation" classname="training_center.dao.CourseDaoTest" time="0.513">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        courses
+        (company_id, duration_unit, duration_value, intensity, title) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        students
+        (full_name) 
+    values
+        (?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        students s1_0 
+    where
+        s1_0.id=?
+Hibernate: 
+    select
+        cs1_0.course_id,
+        cs1_0.student_id,
+        cs1_0.enrolled_at 
+    from
+        course_students cs1_0 
+    where
+        (
+            cs1_0.course_id, cs1_0.student_id
+        ) in ((?, ?))
+Hibernate: 
+    insert 
+    into
+        course_students
+        (enrolled_at, course_id, student_id) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        students s1_0 
+    where
+        s1_0.id=?
+Hibernate: 
+    select
+        cs1_0.course_id,
+        cs1_0.student_id,
+        cs1_0.enrolled_at 
+    from
+        course_students cs1_0 
+    where
+        (
+            cs1_0.course_id, cs1_0.student_id
+        ) in ((?, ?))
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        course_students cs1_0 
+    join
+        students s1_0 
+            on s1_0.id=cs1_0.student_id 
+    where
+        cs1_0.course_id=? 
+    order by
+        s1_0.full_name
+]]></system-out>
+    <system-err><![CDATA[[main] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[main] WARN org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'persistenceConfig' of type [training_center.config.PersistenceConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [exceptionTranslation] is declared through a non-static factory method on that class; consider declaring it as static instead.
+мар. 30, 2026 3:56:32 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [name: default]
+мар. 30, 2026 3:56:32 PM org.hibernate.cache.internal.RegionFactoryInitiator initiateService
+INFO: HHH000026: Second-level cache disabled
+[main] INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+мар. 30, 2026 3:56:32 PM org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl constructDialect
+WARN: HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+мар. 30, 2026 3:56:33 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[main] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+]]></system-err>
+  </testcase>
+  <testcase name="addStudentToCourse_shouldThrow_whenCourseNotFound" classname="training_center.dao.CourseDaoTest" time="0.144">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        students
+        (full_name) 
+    values
+        (?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        students s1_0 
+    where
+        s1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="addStudentToCourse_shouldThrow_whenStudentNotFound" classname="training_center.dao.CourseDaoTest" time="0.214">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        courses
+        (company_id, duration_unit, duration_value, intensity, title) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        students s1_0 
+    where
+        s1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="assignTeacherToCourse_shouldNotDuplicateRelation" classname="training_center.dao.CourseDaoTest" time="0.536">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        courses
+        (company_id, duration_unit, duration_value, intensity, title) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        teachers
+        (company_id, full_name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+Hibernate: 
+    select
+        ct1_0.course_id,
+        ct1_0.teacher_id 
+    from
+        course_teachers ct1_0 
+    where
+        (
+            ct1_0.course_id, ct1_0.teacher_id
+        ) in ((?, ?))
+Hibernate: 
+    insert 
+    into
+        course_teachers
+        (course_id, teacher_id) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+Hibernate: 
+    select
+        ct1_0.course_id,
+        ct1_0.teacher_id 
+    from
+        course_teachers ct1_0 
+    where
+        (
+            ct1_0.course_id, ct1_0.teacher_id
+        ) in ((?, ?))
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        course_teachers ct1_0 
+    join
+        teachers t1_0 
+            on t1_0.id=ct1_0.teacher_id 
+    where
+        ct1_0.course_id=? 
+    order by
+        t1_0.full_name
+]]></system-out>
+  </testcase>
+  <testcase name="assignTeacherToCourse_shouldThrow_whenCourseNotFound" classname="training_center.dao.CourseDaoTest" time="0.223">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        teachers
+        (company_id, full_name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="assignTeacherToCourse_shouldThrow_whenTeacherNotFound" classname="training_center.dao.CourseDaoTest" time="0.309">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        courses
+        (company_id, duration_unit, duration_value, intensity, title) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="deleteById_shouldDeleteCourse" classname="training_center.dao.CourseDaoTest" time="0.287">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        courses
+        (company_id, duration_unit, duration_value, intensity, title) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    delete 
+    from
+        courses 
+    where
+        id=?
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="delete_shouldRemoveDetachedCourse" classname="training_center.dao.CourseDaoTest" time="0.502">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        courses
+        (company_id, duration_unit, duration_value, intensity, title) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    delete 
+    from
+        courses 
+    where
+        id=?
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="removeStudentFromCourse_shouldDoNothing_whenRelationNotExists" classname="training_center.dao.CourseDaoTest" time="0.332">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        courses
+        (company_id, duration_unit, duration_value, intensity, title) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        students
+        (full_name) 
+    values
+        (?)
+Hibernate: 
+    select
+        cs1_0.course_id,
+        cs1_0.student_id,
+        cs1_0.enrolled_at 
+    from
+        course_students cs1_0 
+    where
+        (
+            cs1_0.course_id, cs1_0.student_id
+        ) in ((?, ?))
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        course_students cs1_0 
+    join
+        students s1_0 
+            on s1_0.id=cs1_0.student_id 
+    where
+        cs1_0.course_id=? 
+    order by
+        s1_0.full_name
+]]></system-out>
+  </testcase>
+  <testcase name="removeTeacherFromCourse_shouldDoNothing_whenRelationNotExists" classname="training_center.dao.CourseDaoTest" time="0.498">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        courses
+        (company_id, duration_unit, duration_value, intensity, title) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        teachers
+        (company_id, full_name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        ct1_0.course_id,
+        ct1_0.teacher_id 
+    from
+        course_teachers ct1_0 
+    where
+        (
+            ct1_0.course_id, ct1_0.teacher_id
+        ) in ((?, ?))
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        course_teachers ct1_0 
+    join
+        teachers t1_0 
+            on t1_0.id=ct1_0.teacher_id 
+    where
+        ct1_0.course_id=? 
+    order by
+        t1_0.full_name
+]]></system-out>
+  </testcase>
+  <testcase name="testAddAndRemoveStudent" classname="training_center.dao.CourseDaoTest" time="0.476">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        courses
+        (company_id, duration_unit, duration_value, intensity, title) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        students
+        (full_name) 
+    values
+        (?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        students s1_0 
+    where
+        s1_0.id=?
+Hibernate: 
+    select
+        cs1_0.course_id,
+        cs1_0.student_id,
+        cs1_0.enrolled_at 
+    from
+        course_students cs1_0 
+    where
+        (
+            cs1_0.course_id, cs1_0.student_id
+        ) in ((?, ?))
+Hibernate: 
+    insert 
+    into
+        course_students
+        (enrolled_at, course_id, student_id) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        course_students cs1_0 
+    join
+        students s1_0 
+            on s1_0.id=cs1_0.student_id 
+    where
+        cs1_0.course_id=? 
+    order by
+        s1_0.full_name
+Hibernate: 
+    select
+        cs1_0.course_id,
+        cs1_0.student_id,
+        cs1_0.enrolled_at 
+    from
+        course_students cs1_0 
+    where
+        (
+            cs1_0.course_id, cs1_0.student_id
+        ) in ((?, ?))
+Hibernate: 
+    delete 
+    from
+        course_students 
+    where
+        course_id=? 
+        and student_id=?
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        course_students cs1_0 
+    join
+        students s1_0 
+            on s1_0.id=cs1_0.student_id 
+    where
+        cs1_0.course_id=? 
+    order by
+        s1_0.full_name
+]]></system-out>
+  </testcase>
+  <testcase name="testAddStudentAlreadyExists" classname="training_center.dao.CourseDaoTest" time="0.586">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        courses
+        (company_id, duration_unit, duration_value, intensity, title) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        students
+        (full_name) 
+    values
+        (?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        students s1_0 
+    where
+        s1_0.id=?
+Hibernate: 
+    select
+        cs1_0.course_id,
+        cs1_0.student_id,
+        cs1_0.enrolled_at 
+    from
+        course_students cs1_0 
+    where
+        (
+            cs1_0.course_id, cs1_0.student_id
+        ) in ((?, ?))
+Hibernate: 
+    insert 
+    into
+        course_students
+        (enrolled_at, course_id, student_id) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        students s1_0 
+    where
+        s1_0.id=?
+Hibernate: 
+    select
+        cs1_0.course_id,
+        cs1_0.student_id,
+        cs1_0.enrolled_at 
+    from
+        course_students cs1_0 
+    where
+        (
+            cs1_0.course_id, cs1_0.student_id
+        ) in ((?, ?))
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        course_students cs1_0 
+    join
+        students s1_0 
+            on s1_0.id=cs1_0.student_id 
+    where
+        cs1_0.course_id=? 
+    order by
+        s1_0.full_name
+]]></system-out>
+  </testcase>
+  <testcase name="testAssignAndRemoveTeacher" classname="training_center.dao.CourseDaoTest" time="0.465">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        courses
+        (company_id, duration_unit, duration_value, intensity, title) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        teachers
+        (company_id, full_name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+Hibernate: 
+    select
+        ct1_0.course_id,
+        ct1_0.teacher_id 
+    from
+        course_teachers ct1_0 
+    where
+        (
+            ct1_0.course_id, ct1_0.teacher_id
+        ) in ((?, ?))
+Hibernate: 
+    insert 
+    into
+        course_teachers
+        (course_id, teacher_id) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        course_teachers ct1_0 
+    join
+        teachers t1_0 
+            on t1_0.id=ct1_0.teacher_id 
+    where
+        ct1_0.course_id=? 
+    order by
+        t1_0.full_name
+Hibernate: 
+    select
+        ct1_0.course_id,
+        ct1_0.teacher_id 
+    from
+        course_teachers ct1_0 
+    where
+        (
+            ct1_0.course_id, ct1_0.teacher_id
+        ) in ((?, ?))
+Hibernate: 
+    delete 
+    from
+        course_teachers 
+    where
+        course_id=? 
+        and teacher_id=?
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        course_teachers ct1_0 
+    join
+        teachers t1_0 
+            on t1_0.id=ct1_0.teacher_id 
+    where
+        ct1_0.course_id=? 
+    order by
+        t1_0.full_name
+]]></system-out>
+  </testcase>
+  <testcase name="testDelete" classname="training_center.dao.CourseDaoTest" time="0.267">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        courses
+        (company_id, duration_unit, duration_value, intensity, title) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    delete 
+    from
+        courses 
+    where
+        id=?
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteByIdNotExists" classname="training_center.dao.CourseDaoTest" time="0.116">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="testFindAll" classname="training_center.dao.CourseDaoTest" time="0.204">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        courses
+        (company_id, duration_unit, duration_value, intensity, title) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    order by
+        c1_0.title
+]]></system-out>
+  </testcase>
+  <testcase name="testFindByTitle" classname="training_center.dao.CourseDaoTest" time="0.253">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        courses
+        (company_id, duration_unit, duration_value, intensity, title) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        lower(c1_0.title) like lower(?) escape '' 
+    order by
+        c1_0.title
+]]></system-out>
+  </testcase>
+  <testcase name="testFindByTitleEmpty" classname="training_center.dao.CourseDaoTest" time="0.057">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        lower(c1_0.title) like lower(?) escape '' 
+    order by
+        c1_0.title
+]]></system-out>
+  </testcase>
+  <testcase name="testGetScheduleByCourseId" classname="training_center.dao.CourseDaoTest" time="0.441">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        courses
+        (company_id, duration_unit, duration_value, intensity, title) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        teachers
+        (company_id, full_name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+Hibernate: 
+    select
+        ct1_0.course_id,
+        ct1_0.teacher_id 
+    from
+        course_teachers ct1_0 
+    where
+        (
+            ct1_0.course_id, ct1_0.teacher_id
+        ) in ((?, ?))
+Hibernate: 
+    insert 
+    into
+        course_teachers
+        (course_id, teacher_id) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        schedule
+        (course_id, end_at, start_at, teacher_id) 
+    values
+        (?, ?, ?, ?)
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.course_id,
+        s1_0.end_at,
+        s1_0.start_at,
+        s1_0.teacher_id 
+    from
+        schedule s1_0 
+    where
+        s1_0.course_id=? 
+    order by
+        s1_0.start_at
+]]></system-out>
+  </testcase>
+  <testcase name="testSaveAndFindById" classname="training_center.dao.CourseDaoTest" time="0.195">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        courses
+        (company_id, duration_unit, duration_value, intensity, title) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdate" classname="training_center.dao.CourseDaoTest" time="0.293">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        courses
+        (company_id, duration_unit, duration_value, intensity, title) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    update
+        courses 
+    set
+        company_id=?,
+        duration_unit=?,
+        duration_value=?,
+        intensity=?,
+        title=? 
+    where
+        id=?
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="testDelete" classname="training_center.dao.ScheduleDaoTest" time="0.448">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        courses
+        (company_id, duration_unit, duration_value, intensity, title) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        teachers
+        (company_id, full_name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+Hibernate: 
+    select
+        ct1_0.course_id,
+        ct1_0.teacher_id 
+    from
+        course_teachers ct1_0 
+    where
+        (
+            ct1_0.course_id, ct1_0.teacher_id
+        ) in ((?, ?))
+Hibernate: 
+    insert 
+    into
+        course_teachers
+        (course_id, teacher_id) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        schedule
+        (course_id, end_at, start_at, teacher_id) 
+    values
+        (?, ?, ?, ?)
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.course_id,
+        s1_0.end_at,
+        s1_0.start_at,
+        s1_0.teacher_id 
+    from
+        schedule s1_0 
+    where
+        s1_0.id=?
+Hibernate: 
+    delete 
+    from
+        schedule 
+    where
+        id=?
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.course_id,
+        s1_0.end_at,
+        s1_0.start_at,
+        s1_0.teacher_id 
+    from
+        schedule s1_0 
+    where
+        s1_0.id=?
+]]></system-out>
+    <system-err><![CDATA[[main] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[main] WARN org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'persistenceConfig' of type [training_center.config.PersistenceConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [exceptionTranslation] is declared through a non-static factory method on that class; consider declaring it as static instead.
+мар. 30, 2026 3:56:40 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [name: default]
+мар. 30, 2026 3:56:40 PM org.hibernate.cache.internal.RegionFactoryInitiator initiateService
+INFO: HHH000026: Second-level cache disabled
+[main] INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+мар. 30, 2026 3:56:40 PM org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl constructDialect
+WARN: HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+мар. 30, 2026 3:56:40 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[main] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+]]></system-err>
+  </testcase>
+  <testcase name="testDeleteByIdWhenExists" classname="training_center.dao.ScheduleDaoTest" time="0.576">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        courses
+        (company_id, duration_unit, duration_value, intensity, title) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        teachers
+        (company_id, full_name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+Hibernate: 
+    select
+        ct1_0.course_id,
+        ct1_0.teacher_id 
+    from
+        course_teachers ct1_0 
+    where
+        (
+            ct1_0.course_id, ct1_0.teacher_id
+        ) in ((?, ?))
+Hibernate: 
+    insert 
+    into
+        course_teachers
+        (course_id, teacher_id) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        schedule
+        (course_id, end_at, start_at, teacher_id) 
+    values
+        (?, ?, ?, ?)
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.course_id,
+        s1_0.end_at,
+        s1_0.start_at,
+        s1_0.teacher_id 
+    from
+        schedule s1_0 
+    where
+        s1_0.id=?
+Hibernate: 
+    delete 
+    from
+        schedule 
+    where
+        id=?
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.course_id,
+        s1_0.end_at,
+        s1_0.start_at,
+        s1_0.teacher_id 
+    from
+        schedule s1_0 
+    where
+        s1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteByIdWhenNotExists" classname="training_center.dao.ScheduleDaoTest" time="0.132">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.course_id,
+        s1_0.end_at,
+        s1_0.start_at,
+        s1_0.teacher_id 
+    from
+        schedule s1_0 
+    where
+        s1_0.id=?
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.course_id,
+        s1_0.end_at,
+        s1_0.start_at,
+        s1_0.teacher_id 
+    from
+        schedule s1_0 
+    where
+        s1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteDetached" classname="training_center.dao.ScheduleDaoTest" time="0.492">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        courses
+        (company_id, duration_unit, duration_value, intensity, title) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        teachers
+        (company_id, full_name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+Hibernate: 
+    select
+        ct1_0.course_id,
+        ct1_0.teacher_id 
+    from
+        course_teachers ct1_0 
+    where
+        (
+            ct1_0.course_id, ct1_0.teacher_id
+        ) in ((?, ?))
+Hibernate: 
+    insert 
+    into
+        course_teachers
+        (course_id, teacher_id) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        schedule
+        (course_id, end_at, start_at, teacher_id) 
+    values
+        (?, ?, ?, ?)
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.course_id,
+        s1_0.end_at,
+        s1_0.start_at,
+        s1_0.teacher_id 
+    from
+        schedule s1_0 
+    where
+        s1_0.id=?
+Hibernate: 
+    delete 
+    from
+        schedule 
+    where
+        id=?
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.course_id,
+        s1_0.end_at,
+        s1_0.start_at,
+        s1_0.teacher_id 
+    from
+        schedule s1_0 
+    where
+        s1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="testFindAll" classname="training_center.dao.ScheduleDaoTest" time="0.409">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        courses
+        (company_id, duration_unit, duration_value, intensity, title) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        teachers
+        (company_id, full_name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+Hibernate: 
+    select
+        ct1_0.course_id,
+        ct1_0.teacher_id 
+    from
+        course_teachers ct1_0 
+    where
+        (
+            ct1_0.course_id, ct1_0.teacher_id
+        ) in ((?, ?))
+Hibernate: 
+    insert 
+    into
+        course_teachers
+        (course_id, teacher_id) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        schedule
+        (course_id, end_at, start_at, teacher_id) 
+    values
+        (?, ?, ?, ?)
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.course_id,
+        s1_0.end_at,
+        s1_0.start_at,
+        s1_0.teacher_id 
+    from
+        schedule s1_0 
+    order by
+        s1_0.start_at
+]]></system-out>
+  </testcase>
+  <testcase name="testFindByCourseId" classname="training_center.dao.ScheduleDaoTest" time="0.619">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        courses
+        (company_id, duration_unit, duration_value, intensity, title) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        teachers
+        (company_id, full_name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+Hibernate: 
+    select
+        ct1_0.course_id,
+        ct1_0.teacher_id 
+    from
+        course_teachers ct1_0 
+    where
+        (
+            ct1_0.course_id, ct1_0.teacher_id
+        ) in ((?, ?))
+Hibernate: 
+    insert 
+    into
+        course_teachers
+        (course_id, teacher_id) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        schedule
+        (course_id, end_at, start_at, teacher_id) 
+    values
+        (?, ?, ?, ?)
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.course_id,
+        s1_0.end_at,
+        s1_0.start_at,
+        s1_0.teacher_id 
+    from
+        schedule s1_0 
+    where
+        s1_0.course_id=? 
+    order by
+        s1_0.start_at
+]]></system-out>
+  </testcase>
+  <testcase name="testFindByStudentAndInterval" classname="training_center.dao.ScheduleDaoTest" time="0.587">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        courses
+        (company_id, duration_unit, duration_value, intensity, title) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        teachers
+        (company_id, full_name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        students
+        (full_name) 
+    values
+        (?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+Hibernate: 
+    select
+        ct1_0.course_id,
+        ct1_0.teacher_id 
+    from
+        course_teachers ct1_0 
+    where
+        (
+            ct1_0.course_id, ct1_0.teacher_id
+        ) in ((?, ?))
+Hibernate: 
+    insert 
+    into
+        course_teachers
+        (course_id, teacher_id) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        students s1_0 
+    where
+        s1_0.id=?
+Hibernate: 
+    select
+        cs1_0.course_id,
+        cs1_0.student_id,
+        cs1_0.enrolled_at 
+    from
+        course_students cs1_0 
+    where
+        (
+            cs1_0.course_id, cs1_0.student_id
+        ) in ((?, ?))
+Hibernate: 
+    insert 
+    into
+        course_students
+        (enrolled_at, course_id, student_id) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        schedule
+        (course_id, end_at, start_at, teacher_id) 
+    values
+        (?, ?, ?, ?)
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.course_id,
+        s1_0.end_at,
+        s1_0.start_at,
+        s1_0.teacher_id 
+    from
+        schedule s1_0,
+        course_students cs1_0 
+    where
+        cs1_0.course_id=s1_0.course_id 
+        and cs1_0.student_id=? 
+        and s1_0.start_at>=? 
+        and s1_0.start_at<=? 
+    order by
+        s1_0.start_at
+]]></system-out>
+  </testcase>
+  <testcase name="testFindByTeacherAndInterval" classname="training_center.dao.ScheduleDaoTest" time="0.479">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        courses
+        (company_id, duration_unit, duration_value, intensity, title) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        teachers
+        (company_id, full_name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+Hibernate: 
+    select
+        ct1_0.course_id,
+        ct1_0.teacher_id 
+    from
+        course_teachers ct1_0 
+    where
+        (
+            ct1_0.course_id, ct1_0.teacher_id
+        ) in ((?, ?))
+Hibernate: 
+    insert 
+    into
+        course_teachers
+        (course_id, teacher_id) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        schedule
+        (course_id, end_at, start_at, teacher_id) 
+    values
+        (?, ?, ?, ?)
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.course_id,
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title,
+        s1_0.end_at,
+        s1_0.start_at,
+        s1_0.teacher_id 
+    from
+        schedule s1_0 
+    join
+        courses c1_0 
+            on c1_0.id=s1_0.course_id 
+    where
+        s1_0.teacher_id=? 
+        and s1_0.start_at>=? 
+        and s1_0.start_at<=? 
+    order by
+        s1_0.start_at
+]]></system-out>
+  </testcase>
+  <testcase name="testFindEmptyCases" classname="training_center.dao.ScheduleDaoTest" time="0.264">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.course_id,
+        s1_0.end_at,
+        s1_0.start_at,
+        s1_0.teacher_id 
+    from
+        schedule s1_0 
+    order by
+        s1_0.start_at
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.course_id,
+        s1_0.end_at,
+        s1_0.start_at,
+        s1_0.teacher_id 
+    from
+        schedule s1_0 
+    where
+        s1_0.course_id=? 
+    order by
+        s1_0.start_at
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.course_id,
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title,
+        s1_0.end_at,
+        s1_0.start_at,
+        s1_0.teacher_id 
+    from
+        schedule s1_0 
+    join
+        courses c1_0 
+            on c1_0.id=s1_0.course_id 
+    where
+        s1_0.teacher_id=? 
+        and s1_0.start_at>=? 
+        and s1_0.start_at<=? 
+    order by
+        s1_0.start_at
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.course_id,
+        s1_0.end_at,
+        s1_0.start_at,
+        s1_0.teacher_id 
+    from
+        schedule s1_0,
+        course_students cs1_0 
+    where
+        cs1_0.course_id=s1_0.course_id 
+        and cs1_0.student_id=? 
+        and s1_0.start_at>=? 
+        and s1_0.start_at<=? 
+    order by
+        s1_0.start_at
+]]></system-out>
+  </testcase>
+  <testcase name="testSaveAndFindById" classname="training_center.dao.ScheduleDaoTest" time="0.647">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        courses
+        (company_id, duration_unit, duration_value, intensity, title) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        teachers
+        (company_id, full_name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+Hibernate: 
+    select
+        ct1_0.course_id,
+        ct1_0.teacher_id 
+    from
+        course_teachers ct1_0 
+    where
+        (
+            ct1_0.course_id, ct1_0.teacher_id
+        ) in ((?, ?))
+Hibernate: 
+    insert 
+    into
+        course_teachers
+        (course_id, teacher_id) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        schedule
+        (course_id, end_at, start_at, teacher_id) 
+    values
+        (?, ?, ?, ?)
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.course_id,
+        s1_0.end_at,
+        s1_0.start_at,
+        s1_0.teacher_id 
+    from
+        schedule s1_0 
+    where
+        s1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="testSaveLessonSuccess" classname="training_center.dao.ScheduleDaoTest" time="0.54">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        courses
+        (company_id, duration_unit, duration_value, intensity, title) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        teachers
+        (company_id, full_name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+Hibernate: 
+    select
+        ct1_0.course_id,
+        ct1_0.teacher_id 
+    from
+        course_teachers ct1_0 
+    where
+        (
+            ct1_0.course_id, ct1_0.teacher_id
+        ) in ((?, ?))
+Hibernate: 
+    insert 
+    into
+        course_teachers
+        (course_id, teacher_id) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+Hibernate: 
+    select
+        ct1_0.course_id,
+        ct1_0.teacher_id 
+    from
+        course_teachers ct1_0 
+    where
+        (
+            ct1_0.course_id, ct1_0.teacher_id
+        ) in ((?, ?))
+Hibernate: 
+    insert 
+    into
+        schedule
+        (course_id, end_at, start_at, teacher_id) 
+    values
+        (?, ?, ?, ?)
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.course_id,
+        s1_0.end_at,
+        s1_0.start_at,
+        s1_0.teacher_id 
+    from
+        schedule s1_0 
+    where
+        s1_0.course_id=? 
+    order by
+        s1_0.start_at
+]]></system-out>
+  </testcase>
+  <testcase name="testSaveLessonWhenBothDatesNull" classname="training_center.dao.ScheduleDaoTest" time="0.051">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+]]></system-out>
+  </testcase>
+  <testcase name="testSaveLessonWhenCourseNotFound" classname="training_center.dao.ScheduleDaoTest" time="0.202">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        teachers
+        (company_id, full_name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="testSaveLessonWhenEndNull" classname="training_center.dao.ScheduleDaoTest" time="0.05">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+]]></system-out>
+  </testcase>
+  <testcase name="testSaveLessonWhenInvalidInterval" classname="training_center.dao.ScheduleDaoTest" time="0.05">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+]]></system-out>
+  </testcase>
+  <testcase name="testSaveLessonWhenStartNull" classname="training_center.dao.ScheduleDaoTest" time="0.054">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+]]></system-out>
+  </testcase>
+  <testcase name="testSaveLessonWhenTeacherNotAssignedToCourse" classname="training_center.dao.ScheduleDaoTest" time="0.272">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        courses
+        (company_id, duration_unit, duration_value, intensity, title) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        teachers
+        (company_id, full_name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+Hibernate: 
+    select
+        ct1_0.course_id,
+        ct1_0.teacher_id 
+    from
+        course_teachers ct1_0 
+    where
+        (
+            ct1_0.course_id, ct1_0.teacher_id
+        ) in ((?, ?))
+]]></system-out>
+  </testcase>
+  <testcase name="testSaveLessonWhenTeacherNotFound" classname="training_center.dao.ScheduleDaoTest" time="0.207">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        courses
+        (company_id, duration_unit, duration_value, intensity, title) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdate" classname="training_center.dao.ScheduleDaoTest" time="0.619">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        courses
+        (company_id, duration_unit, duration_value, intensity, title) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        teachers
+        (company_id, full_name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+Hibernate: 
+    select
+        ct1_0.course_id,
+        ct1_0.teacher_id 
+    from
+        course_teachers ct1_0 
+    where
+        (
+            ct1_0.course_id, ct1_0.teacher_id
+        ) in ((?, ?))
+Hibernate: 
+    insert 
+    into
+        course_teachers
+        (course_id, teacher_id) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        schedule
+        (course_id, end_at, start_at, teacher_id) 
+    values
+        (?, ?, ?, ?)
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.course_id,
+        s1_0.end_at,
+        s1_0.start_at,
+        s1_0.teacher_id 
+    from
+        schedule s1_0 
+    where
+        s1_0.id=?
+Hibernate: 
+    update
+        schedule 
+    set
+        course_id=?,
+        end_at=?,
+        start_at=?,
+        teacher_id=? 
+    where
+        id=?
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.course_id,
+        s1_0.end_at,
+        s1_0.start_at,
+        s1_0.teacher_id 
+    from
+        schedule s1_0 
+    where
+        s1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="testDelete" classname="training_center.dao.StudentDaoTest" time="0.202">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        students
+        (full_name) 
+    values
+        (?)
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        students s1_0 
+    where
+        s1_0.id=?
+Hibernate: 
+    delete 
+    from
+        students 
+    where
+        id=?
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        students s1_0 
+    where
+        s1_0.id=?
+]]></system-out>
+    <system-err><![CDATA[[main] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[main] WARN org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'persistenceConfig' of type [training_center.config.PersistenceConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [exceptionTranslation] is declared through a non-static factory method on that class; consider declaring it as static instead.
+мар. 30, 2026 3:56:48 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [name: default]
+мар. 30, 2026 3:56:48 PM org.hibernate.cache.internal.RegionFactoryInitiator initiateService
+INFO: HHH000026: Second-level cache disabled
+[main] INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+мар. 30, 2026 3:56:48 PM org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl constructDialect
+WARN: HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+мар. 30, 2026 3:56:48 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[main] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+]]></system-err>
+  </testcase>
+  <testcase name="testDeleteById" classname="training_center.dao.StudentDaoTest" time="0.196">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        students
+        (full_name) 
+    values
+        (?)
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        students s1_0 
+    where
+        s1_0.id=?
+Hibernate: 
+    delete 
+    from
+        students 
+    where
+        id=?
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        students s1_0 
+    where
+        s1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteByIdWhenStudentDoesNotExist" classname="training_center.dao.StudentDaoTest" time="0.123">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        students s1_0 
+    where
+        s1_0.id=?
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        students s1_0 
+    where
+        s1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteDetached" classname="training_center.dao.StudentDaoTest" time="0.248">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        students
+        (full_name) 
+    values
+        (?)
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        students s1_0 
+    where
+        s1_0.id=?
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        students s1_0 
+    where
+        s1_0.id=?
+Hibernate: 
+    delete 
+    from
+        students 
+    where
+        id=?
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        students s1_0 
+    where
+        s1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="testFindAll" classname="training_center.dao.StudentDaoTest" time="0.131">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        students
+        (full_name) 
+    values
+        (?)
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        students s1_0 
+    order by
+        s1_0.full_name
+]]></system-out>
+  </testcase>
+  <testcase name="testFindByCourseId" classname="training_center.dao.StudentDaoTest" time="0.34">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        courses
+        (company_id, duration_unit, duration_value, intensity, title) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        students
+        (full_name) 
+    values
+        (?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        students s1_0 
+    where
+        s1_0.id=?
+Hibernate: 
+    select
+        cs1_0.course_id,
+        cs1_0.student_id,
+        cs1_0.enrolled_at 
+    from
+        course_students cs1_0 
+    where
+        (
+            cs1_0.course_id, cs1_0.student_id
+        ) in ((?, ?))
+Hibernate: 
+    insert 
+    into
+        course_students
+        (enrolled_at, course_id, student_id) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        course_students cs1_0 
+    join
+        students s1_0 
+            on s1_0.id=cs1_0.student_id 
+    where
+        cs1_0.course_id=? 
+    order by
+        s1_0.full_name
+]]></system-out>
+  </testcase>
+  <testcase name="testFindByCourseIdEmpty" classname="training_center.dao.StudentDaoTest" time="0.058">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        course_students cs1_0 
+    join
+        students s1_0 
+            on s1_0.id=cs1_0.student_id 
+    where
+        cs1_0.course_id=? 
+    order by
+        s1_0.full_name
+]]></system-out>
+  </testcase>
+  <testcase name="testFindByFullName" classname="training_center.dao.StudentDaoTest" time="0.124">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        students
+        (full_name) 
+    values
+        (?)
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        students s1_0 
+    where
+        lower(s1_0.full_name) like lower(?) escape '' 
+    order by
+        s1_0.full_name
+]]></system-out>
+  </testcase>
+  <testcase name="testFindByFullNameEmpty" classname="training_center.dao.StudentDaoTest" time="0.16">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        students s1_0 
+    where
+        lower(s1_0.full_name) like lower(?) escape '' 
+    order by
+        s1_0.full_name
+]]></system-out>
+  </testcase>
+  <testcase name="testGetCourseHistory" classname="training_center.dao.StudentDaoTest" time="0.35">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        courses
+        (company_id, duration_unit, duration_value, intensity, title) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        students
+        (full_name) 
+    values
+        (?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        students s1_0 
+    where
+        s1_0.id=?
+Hibernate: 
+    select
+        cs1_0.course_id,
+        cs1_0.student_id,
+        cs1_0.enrolled_at 
+    from
+        course_students cs1_0 
+    where
+        (
+            cs1_0.course_id, cs1_0.student_id
+        ) in ((?, ?))
+Hibernate: 
+    insert 
+    into
+        course_students
+        (enrolled_at, course_id, student_id) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        course_students cs1_0 
+    join
+        courses c1_0 
+            on c1_0.id=cs1_0.course_id 
+    where
+        cs1_0.student_id=? 
+    order by
+        cs1_0.enrolled_at desc,
+        c1_0.title
+]]></system-out>
+  </testcase>
+  <testcase name="testGetCourseHistoryEmpty" classname="training_center.dao.StudentDaoTest" time="0.056">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        course_students cs1_0 
+    join
+        courses c1_0 
+            on c1_0.id=cs1_0.course_id 
+    where
+        cs1_0.student_id=? 
+    order by
+        cs1_0.enrolled_at desc,
+        c1_0.title
+]]></system-out>
+  </testcase>
+  <testcase name="testSaveAndFindById" classname="training_center.dao.StudentDaoTest" time="0.122">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        students
+        (full_name) 
+    values
+        (?)
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        students s1_0 
+    where
+        s1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdate" classname="training_center.dao.StudentDaoTest" time="0.204">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        students
+        (full_name) 
+    values
+        (?)
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        students s1_0 
+    where
+        s1_0.id=?
+Hibernate: 
+    update
+        students 
+    set
+        full_name=? 
+    where
+        id=?
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        students s1_0 
+    where
+        s1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateDetached" classname="training_center.dao.StudentDaoTest" time="0.466">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        students
+        (full_name) 
+    values
+        (?)
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        students s1_0 
+    where
+        s1_0.id=?
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        students s1_0 
+    where
+        s1_0.id=?
+Hibernate: 
+    update
+        students 
+    set
+        full_name=? 
+    where
+        id=?
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.full_name 
+    from
+        students s1_0 
+    where
+        s1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="testDelete" classname="training_center.dao.TeacherDaoTest" time="0.273">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        teachers
+        (company_id, full_name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+Hibernate: 
+    delete 
+    from
+        teachers 
+    where
+        id=?
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+]]></system-out>
+    <system-err><![CDATA[[main] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[main] WARN org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'persistenceConfig' of type [training_center.config.PersistenceConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [exceptionTranslation] is declared through a non-static factory method on that class; consider declaring it as static instead.
+мар. 30, 2026 3:56:51 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [name: default]
+мар. 30, 2026 3:56:51 PM org.hibernate.cache.internal.RegionFactoryInitiator initiateService
+INFO: HHH000026: Second-level cache disabled
+[main] INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+мар. 30, 2026 3:56:51 PM org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl constructDialect
+WARN: HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+мар. 30, 2026 3:56:51 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[main] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+]]></system-err>
+  </testcase>
+  <testcase name="testDeleteById" classname="training_center.dao.TeacherDaoTest" time="0.278">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        teachers
+        (company_id, full_name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+Hibernate: 
+    delete 
+    from
+        teachers 
+    where
+        id=?
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteByIdWhenNotExists" classname="training_center.dao.TeacherDaoTest" time="0.219">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteDetached" classname="training_center.dao.TeacherDaoTest" time="0.258">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        teachers
+        (company_id, full_name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+Hibernate: 
+    delete 
+    from
+        teachers 
+    where
+        id=?
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="testFindAll" classname="training_center.dao.TeacherDaoTest" time="0.208">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        teachers
+        (company_id, full_name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    order by
+        t1_0.full_name
+]]></system-out>
+  </testcase>
+  <testcase name="testFindByCompanyIdEmpty" classname="training_center.dao.TeacherDaoTest" time="0.056">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.company_id=? 
+    order by
+        t1_0.full_name
+]]></system-out>
+  </testcase>
+  <testcase name="testFindByCourseIdEmpty" classname="training_center.dao.TeacherDaoTest" time="0.055">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        course_teachers ct1_0 
+    join
+        teachers t1_0 
+            on t1_0.id=ct1_0.teacher_id 
+    where
+        ct1_0.course_id=? 
+    order by
+        t1_0.full_name
+]]></system-out>
+  </testcase>
+  <testcase name="testFindByFullName" classname="training_center.dao.TeacherDaoTest" time="0.189">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        teachers
+        (company_id, full_name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        lower(t1_0.full_name) like lower(?) escape '' 
+    order by
+        t1_0.full_name
+]]></system-out>
+  </testcase>
+  <testcase name="testFindByFullNameEmpty" classname="training_center.dao.TeacherDaoTest" time="0.055">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        lower(t1_0.full_name) like lower(?) escape '' 
+    order by
+        t1_0.full_name
+]]></system-out>
+  </testcase>
+  <testcase name="testGetCoursesByTeacherIdEmpty" classname="training_center.dao.TeacherDaoTest" time="0.057">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.company_id,
+        c1_0.duration_unit,
+        c1_0.duration_value,
+        c1_0.intensity,
+        c1_0.title 
+    from
+        course_teachers ct1_0 
+    join
+        courses c1_0 
+            on c1_0.id=ct1_0.course_id 
+    where
+        ct1_0.teacher_id=? 
+    order by
+        c1_0.title
+]]></system-out>
+  </testcase>
+  <testcase name="testSaveAndFindById" classname="training_center.dao.TeacherDaoTest" time="0.196">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        teachers
+        (company_id, full_name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdate" classname="training_center.dao.TeacherDaoTest" time="0.272">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        teachers
+        (company_id, full_name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+Hibernate: 
+    update
+        teachers 
+    set
+        company_id=?,
+        full_name=? 
+    where
+        id=?
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateDetached" classname="training_center.dao.TeacherDaoTest" time="0.333">
+    <system-out><![CDATA[Hibernate: 
+    delete 
+    from
+        schedule
+Hibernate: 
+    delete 
+    from
+        course_students
+Hibernate: 
+    delete 
+    from
+        course_teachers
+Hibernate: 
+    delete 
+    from
+        students
+Hibernate: 
+    delete 
+    from
+        teachers
+Hibernate: 
+    delete 
+    from
+        courses
+Hibernate: 
+    delete 
+    from
+        companies
+Hibernate: 
+    insert 
+    into
+        companies
+        (address, name) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        teachers
+        (company_id, full_name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+Hibernate: 
+    update
+        teachers 
+    set
+        company_id=?,
+        full_name=? 
+    where
+        id=?
+Hibernate: 
+    select
+        t1_0.id,
+        t1_0.company_id,
+        t1_0.full_name 
+    from
+        teachers t1_0 
+    where
+        t1_0.id=?
+]]></system-out>
+  </testcase>
+</testsuite>

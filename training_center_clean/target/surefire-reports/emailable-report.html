@@ -1,0 +1,290 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Surefire suite</th></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">75</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">30 334</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">training_center.dao.CompanyDaoTest</td><td><a href="#m0">deleteById_shouldDeleteCompany</a></td><td rowspan="1">1774875390875</td><td rowspan="1">392</td></tr><tr class="passedeven"><td><a href="#m1">deleteById_shouldDoNothing_whenCompanyNotExists</a></td><td rowspan="1">1774875391283</td><td rowspan="1">271</td></tr><tr class="passedeven"><td><a href="#m2">delete_shouldRemoveDetachedCompany</a></td><td rowspan="1">1774875391567</td><td rowspan="1">236</td></tr><tr class="passedeven"><td><a href="#m3">delete_shouldRemoveManagedCompany</a></td><td rowspan="1">1774875391813</td><td rowspan="1">320</td></tr><tr class="passedeven"><td><a href="#m4">findAll_shouldReturnSorted</a></td><td rowspan="1">1774875392146</td><td rowspan="1">207</td></tr><tr class="passedeven"><td><a href="#m5">findById_shouldReturnNull_whenCompanyNotExists</a></td><td rowspan="1">1774875392363</td><td rowspan="1">57</td></tr><tr class="passedeven"><td><a href="#m6">save_and_findById</a></td><td rowspan="1">1774875392430</td><td rowspan="1">126</td></tr><tr class="passedeven"><td><a href="#m7">update_shouldUpdateCompany</a></td><td rowspan="1">1774875392577</td><td rowspan="1">223</td></tr><tr class="passedodd"><td rowspan="21">training_center.dao.CourseDaoTest</td><td><a href="#m8">addStudentToCourse_shouldNotDuplicateRelation</a></td><td rowspan="1">1774875393363</td><td rowspan="1">515</td></tr><tr class="passedodd"><td><a href="#m9">addStudentToCourse_shouldThrow_whenCourseNotFound</a></td><td rowspan="1">1774875393888</td><td rowspan="1">144</td></tr><tr class="passedodd"><td><a href="#m10">addStudentToCourse_shouldThrow_whenStudentNotFound</a></td><td rowspan="1">1774875394057</td><td rowspan="1">215</td></tr><tr class="passedodd"><td><a href="#m11">assignTeacherToCourse_shouldNotDuplicateRelation</a></td><td rowspan="1">1774875394294</td><td rowspan="1">536</td></tr><tr class="passedodd"><td><a href="#m12">assignTeacherToCourse_shouldThrow_whenCourseNotFound</a></td><td rowspan="1">1774875394854</td><td rowspan="1">223</td></tr><tr class="passedodd"><td><a href="#m13">assignTeacherToCourse_shouldThrow_whenTeacherNotFound</a></td><td rowspan="1">1774875395099</td><td rowspan="1">311</td></tr><tr class="passedodd"><td><a href="#m14">deleteById_shouldDeleteCourse</a></td><td rowspan="1">1774875395431</td><td rowspan="1">289</td></tr><tr class="passedodd"><td><a href="#m15">delete_shouldRemoveDetachedCourse</a></td><td rowspan="1">1774875395741</td><td rowspan="1">502</td></tr><tr class="passedodd"><td><a href="#m16">removeStudentFromCourse_shouldDoNothing_whenRelationNotExists</a></td><td rowspan="1">1774875396252</td><td rowspan="1">333</td></tr><tr class="passedodd"><td><a href="#m17">removeTeacherFromCourse_shouldDoNothing_whenRelationNotExists</a></td><td rowspan="1">1774875396593</td><td rowspan="1">500</td></tr><tr class="passedodd"><td><a href="#m18">testAddAndRemoveStudent</a></td><td rowspan="1">1774875397114</td><td rowspan="1">478</td></tr><tr class="passedodd"><td><a href="#m19">testAddStudentAlreadyExists</a></td><td rowspan="1">1774875397616</td><td rowspan="1">587</td></tr><tr class="passedodd"><td><a href="#m20">testAssignAndRemoveTeacher</a></td><td rowspan="1">1774875398213</td><td rowspan="1">466</td></tr><tr class="passedodd"><td><a href="#m21">testDelete</a></td><td rowspan="1">1774875398687</td><td rowspan="1">268</td></tr><tr class="passedodd"><td><a href="#m22">testDeleteByIdNotExists</a></td><td rowspan="1">1774875398966</td><td rowspan="1">116</td></tr><tr class="passedodd"><td><a href="#m23">testFindAll</a></td><td rowspan="1">1774875399092</td><td rowspan="1">205</td></tr><tr class="passedodd"><td><a href="#m24">testFindByTitle</a></td><td rowspan="1">1774875399305</td><td rowspan="1">254</td></tr><tr class="passedodd"><td><a href="#m25">testFindByTitleEmpty</a></td><td rowspan="1">1774875399568</td><td rowspan="1">58</td></tr><tr class="passedodd"><td><a href="#m26">testGetScheduleByCourseId</a></td><td rowspan="1">1774875399634</td><td rowspan="1">451</td></tr><tr class="passedodd"><td><a href="#m27">testSaveAndFindById</a></td><td rowspan="1">1774875400094</td><td rowspan="1">197</td></tr><tr class="passedodd"><td><a href="#m28">testUpdate</a></td><td rowspan="1">1774875400311</td><td rowspan="1">294</td></tr><tr class="passedeven"><td rowspan="19">training_center.dao.ScheduleDaoTest</td><td><a href="#m29">testDelete</a></td><td rowspan="1">1774875401048</td><td rowspan="1">448</td></tr><tr class="passedeven"><td><a href="#m30">testDeleteByIdWhenExists</a></td><td rowspan="1">1774875401517</td><td rowspan="1">578</td></tr><tr class="passedeven"><td><a href="#m31">testDeleteByIdWhenNotExists</a></td><td rowspan="1">1774875402117</td><td rowspan="1">134</td></tr><tr class="passedeven"><td><a href="#m32">testDeleteDetached</a></td><td rowspan="1">1774875402259</td><td rowspan="1">493</td></tr><tr class="passedeven"><td><a href="#m33">testFindAll</a></td><td rowspan="1">1774875402766</td><td rowspan="1">410</td></tr><tr class="passedeven"><td><a href="#m34">testFindByCourseId</a></td><td rowspan="1">1774875403197</td><td rowspan="1">620</td></tr><tr class="passedeven"><td><a href="#m35">testFindByStudentAndInterval</a></td><td rowspan="1">1774875403837</td><td rowspan="1">589</td></tr><tr class="passedeven"><td><a href="#m36">testFindByTeacherAndInterval</a></td><td rowspan="1">1774875404447</td><td rowspan="1">480</td></tr><tr class="passedeven"><td><a href="#m37">testFindEmptyCases</a></td><td rowspan="1">1774875404936</td><td rowspan="1">264</td></tr><tr class="passedeven"><td><a href="#m38">testSaveAndFindById</a></td><td rowspan="1">1774875405208</td><td rowspan="1">648</td></tr><tr class="passedeven"><td><a href="#m39">testSaveLessonSuccess</a></td><td rowspan="1">1774875405863</td><td rowspan="1">542</td></tr><tr class="passedeven"><td><a href="#m40">testSaveLessonWhenBothDatesNull</a></td><td rowspan="1">1774875406412</td><td rowspan="1">52</td></tr><tr class="passedeven"><td><a href="#m41">testSaveLessonWhenCourseNotFound</a></td><td rowspan="1">1774875406470</td><td rowspan="1">203</td></tr><tr class="passedeven"><td><a href="#m42">testSaveLessonWhenEndNull</a></td><td rowspan="1">1774875406693</td><td rowspan="1">50</td></tr><tr class="passedeven"><td><a href="#m43">testSaveLessonWhenInvalidInterval</a></td><td rowspan="1">1774875406750</td><td rowspan="1">50</td></tr><tr class="passedeven"><td><a href="#m44">testSaveLessonWhenStartNull</a></td><td rowspan="1">1774875406806</td><td rowspan="1">55</td></tr><tr class="passedeven"><td><a href="#m45">testSaveLessonWhenTeacherNotAssignedToCourse</a></td><td rowspan="1">1774875406867</td><td rowspan="1">274</td></tr><tr class="passedeven"><td><a href="#m46">testSaveLessonWhenTeacherNotFound</a></td><td rowspan="1">1774875407161</td><td rowspan="1">209</td></tr><tr class="passedeven"><td><a href="#m47">testUpdate</a></td><td rowspan="1">1774875407380</td><td rowspan="1">621</td></tr><tr class="passedodd"><td rowspan="14">training_center.dao.StudentDaoTest</td><td><a href="#m48">testDelete</a></td><td rowspan="1">1774875408530</td><td rowspan="1">203</td></tr><tr class="passedodd"><td><a href="#m49">testDeleteById</a></td><td rowspan="1">1774875408740</td><td rowspan="1">197</td></tr><tr class="passedodd"><td><a href="#m50">testDeleteByIdWhenStudentDoesNotExist</a></td><td rowspan="1">1774875408944</td><td rowspan="1">123</td></tr><tr class="passedodd"><td><a href="#m51">testDeleteDetached</a></td><td rowspan="1">1774875409075</td><td rowspan="1">260</td></tr><tr class="passedodd"><td><a href="#m52">testFindAll</a></td><td rowspan="1">1774875409346</td><td rowspan="1">131</td></tr><tr class="passedodd"><td><a href="#m53">testFindByCourseId</a></td><td rowspan="1">1774875409497</td><td rowspan="1">342</td></tr><tr class="passedodd"><td><a href="#m54">testFindByCourseIdEmpty</a></td><td rowspan="1">1774875409860</td><td rowspan="1">57</td></tr><tr class="passedodd"><td><a href="#m55">testFindByFullName</a></td><td rowspan="1">1774875409924</td><td rowspan="1">126</td></tr><tr class="passedodd"><td><a href="#m56">testFindByFullNameEmpty</a></td><td rowspan="1">1774875410068</td><td rowspan="1">162</td></tr><tr class="passedodd"><td><a href="#m57">testGetCourseHistory</a></td><td rowspan="1">1774875410241</td><td rowspan="1">353</td></tr><tr class="passedodd"><td><a href="#m58">testGetCourseHistoryEmpty</a></td><td rowspan="1">1774875410613</td><td rowspan="1">58</td></tr><tr class="passedodd"><td><a href="#m59">testSaveAndFindById</a></td><td rowspan="1">1774875410678</td><td rowspan="1">122</td></tr><tr class="passedodd"><td><a href="#m60">testUpdate</a></td><td rowspan="1">1774875410821</td><td rowspan="1">206</td></tr><tr class="passedodd"><td><a href="#m61">testUpdateDetached</a></td><td rowspan="1">1774875411034</td><td rowspan="1">463</td></tr><tr class="passedeven"><td rowspan="13">training_center.dao.TeacherDaoTest</td><td><a href="#m62">testDelete</a></td><td rowspan="1">1774875411899</td><td rowspan="1">275</td></tr><tr class="passedeven"><td><a href="#m63">testDeleteById</a></td><td rowspan="1">1774875412212</td><td rowspan="1">278</td></tr><tr class="passedeven"><td><a href="#m64">testDeleteByIdWhenNotExists</a></td><td rowspan="1">1774875412509</td><td rowspan="1">219</td></tr><tr class="passedeven"><td><a href="#m65">testDeleteDetached</a></td><td rowspan="1">1774875412735</td><td rowspan="1">259</td></tr><tr class="passedeven"><td><a href="#m66">testFindAll</a></td><td rowspan="1">1774875413012</td><td rowspan="1">209</td></tr><tr class="passedeven"><td><a href="#m67">testFindByCompanyIdEmpty</a></td><td rowspan="1">1774875413240</td><td rowspan="1">58</td></tr><tr class="passedeven"><td><a href="#m68">testFindByCourseIdEmpty</a></td><td rowspan="1">1774875413304</td><td rowspan="1">55</td></tr><tr class="passedeven"><td><a href="#m69">testFindByFullName</a></td><td rowspan="1">1774875413366</td><td rowspan="1">190</td></tr><tr class="passedeven"><td><a href="#m70">testFindByFullNameEmpty</a></td><td rowspan="1">1774875413576</td><td rowspan="1">56</td></tr><tr class="passedeven"><td><a href="#m71">testGetCoursesByTeacherIdEmpty</a></td><td rowspan="1">1774875413638</td><td rowspan="1">59</td></tr><tr class="passedeven"><td><a href="#m72">testSaveAndFindById</a></td><td rowspan="1">1774875413703</td><td rowspan="1">196</td></tr><tr class="passedeven"><td><a href="#m73">testUpdate</a></td><td rowspan="1">1774875413920</td><td rowspan="1">271</td></tr><tr class="passedeven"><td><a href="#m74">testUpdateDetached</a></td><td rowspan="1">1774875414199</td><td rowspan="1">334</td></tr></tbody>
+</table>
+<h2>Surefire test</h2><h3 id="m0">training_center.dao.CompanyDaoTest#deleteById_shouldDeleteCompany</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">training_center.dao.CompanyDaoTest#deleteById_shouldDoNothing_whenCompanyNotExists</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">training_center.dao.CompanyDaoTest#delete_shouldRemoveDetachedCompany</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">training_center.dao.CompanyDaoTest#delete_shouldRemoveManagedCompany</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">training_center.dao.CompanyDaoTest#findAll_shouldReturnSorted</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">training_center.dao.CompanyDaoTest#findById_shouldReturnNull_whenCompanyNotExists</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">training_center.dao.CompanyDaoTest#save_and_findById</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">training_center.dao.CompanyDaoTest#update_shouldUpdateCompany</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">training_center.dao.CourseDaoTest#addStudentToCourse_shouldNotDuplicateRelation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">training_center.dao.CourseDaoTest#addStudentToCourse_shouldThrow_whenCourseNotFound</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: Курс с id=999 не найден
+	at training_center.dao.CourseDao.addStudentToCourse(CourseDao.java:107)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at training_center.dao.CourseDao$$SpringCGLIB$$0.addStudentToCourse(&lt;generated&gt;)
+	at training_center.dao.CourseDaoTest.addStudentToCourse_shouldThrow_whenCourseNotFound(CourseDaoTest.java:198)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">training_center.dao.CourseDaoTest#addStudentToCourse_shouldThrow_whenStudentNotFound</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: Обучающийся с id=999 не найден
+	at training_center.dao.CourseDao.addStudentToCourse(CourseDao.java:110)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at training_center.dao.CourseDao$$SpringCGLIB$$0.addStudentToCourse(&lt;generated&gt;)
+	at training_center.dao.CourseDaoTest.addStudentToCourse_shouldThrow_whenStudentNotFound(CourseDaoTest.java:205)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">training_center.dao.CourseDaoTest#assignTeacherToCourse_shouldNotDuplicateRelation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">training_center.dao.CourseDaoTest#assignTeacherToCourse_shouldThrow_whenCourseNotFound</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: Курс с id=999 не найден
+	at training_center.dao.CourseDao.assignTeacherToCourse(CourseDao.java:145)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at training_center.dao.CourseDao$$SpringCGLIB$$0.assignTeacherToCourse(&lt;generated&gt;)
+	at training_center.dao.CourseDaoTest.assignTeacherToCourse_shouldThrow_whenCourseNotFound(CourseDaoTest.java:263)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">training_center.dao.CourseDaoTest#assignTeacherToCourse_shouldThrow_whenTeacherNotFound</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: Преподаватель с id=999 не найден
+	at training_center.dao.CourseDao.assignTeacherToCourse(CourseDao.java:148)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at training_center.dao.CourseDao$$SpringCGLIB$$0.assignTeacherToCourse(&lt;generated&gt;)
+	at training_center.dao.CourseDaoTest.assignTeacherToCourse_shouldThrow_whenTeacherNotFound(CourseDaoTest.java:270)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">training_center.dao.CourseDaoTest#deleteById_shouldDeleteCourse</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">training_center.dao.CourseDaoTest#delete_shouldRemoveDetachedCourse</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">training_center.dao.CourseDaoTest#removeStudentFromCourse_shouldDoNothing_whenRelationNotExists</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">training_center.dao.CourseDaoTest#removeTeacherFromCourse_shouldDoNothing_whenRelationNotExists</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">training_center.dao.CourseDaoTest#testAddAndRemoveStudent</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">training_center.dao.CourseDaoTest#testAddStudentAlreadyExists</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">training_center.dao.CourseDaoTest#testAssignAndRemoveTeacher</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">training_center.dao.CourseDaoTest#testDelete</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">training_center.dao.CourseDaoTest#testDeleteByIdNotExists</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">training_center.dao.CourseDaoTest#testFindAll</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">training_center.dao.CourseDaoTest#testFindByTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m25">training_center.dao.CourseDaoTest#testFindByTitleEmpty</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m26">training_center.dao.CourseDaoTest#testGetScheduleByCourseId</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m27">training_center.dao.CourseDaoTest#testSaveAndFindById</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m28">training_center.dao.CourseDaoTest#testUpdate</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m29">training_center.dao.ScheduleDaoTest#testDelete</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m30">training_center.dao.ScheduleDaoTest#testDeleteByIdWhenExists</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m31">training_center.dao.ScheduleDaoTest#testDeleteByIdWhenNotExists</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m32">training_center.dao.ScheduleDaoTest#testDeleteDetached</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m33">training_center.dao.ScheduleDaoTest#testFindAll</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m34">training_center.dao.ScheduleDaoTest#testFindByCourseId</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m35">training_center.dao.ScheduleDaoTest#testFindByStudentAndInterval</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m36">training_center.dao.ScheduleDaoTest#testFindByTeacherAndInterval</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m37">training_center.dao.ScheduleDaoTest#testFindEmptyCases</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m38">training_center.dao.ScheduleDaoTest#testSaveAndFindById</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m39">training_center.dao.ScheduleDaoTest#testSaveLessonSuccess</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m40">training_center.dao.ScheduleDaoTest#testSaveLessonWhenBothDatesNull</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: Дата и время занятия не должны быть null
+	at training_center.dao.ScheduleDao.saveLesson(ScheduleDao.java:99)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at training_center.dao.ScheduleDao$$SpringCGLIB$$0.saveLesson(&lt;generated&gt;)
+	at training_center.dao.ScheduleDaoTest.testSaveLessonWhenBothDatesNull(ScheduleDaoTest.java:281)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m41">training_center.dao.ScheduleDaoTest#testSaveLessonWhenCourseNotFound</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: Курс с id=-999 не найден
+	at training_center.dao.ScheduleDao.saveLesson(ScheduleDao.java:108)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at training_center.dao.ScheduleDao$$SpringCGLIB$$0.saveLesson(&lt;generated&gt;)
+	at training_center.dao.ScheduleDaoTest.testSaveLessonWhenCourseNotFound(ScheduleDaoTest.java:311)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m42">training_center.dao.ScheduleDaoTest#testSaveLessonWhenEndNull</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: Дата и время занятия не должны быть null
+	at training_center.dao.ScheduleDao.saveLesson(ScheduleDao.java:99)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at training_center.dao.ScheduleDao$$SpringCGLIB$$0.saveLesson(&lt;generated&gt;)
+	at training_center.dao.ScheduleDaoTest.testSaveLessonWhenEndNull(ScheduleDaoTest.java:291)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m43">training_center.dao.ScheduleDaoTest#testSaveLessonWhenInvalidInterval</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: Некорректный временной интервал: endAt должен быть больше startAt
+	at training_center.dao.ScheduleDao.saveLesson(ScheduleDao.java:103)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at training_center.dao.ScheduleDao$$SpringCGLIB$$0.saveLesson(&lt;generated&gt;)
+	at training_center.dao.ScheduleDaoTest.testSaveLessonWhenInvalidInterval(ScheduleDaoTest.java:297)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m44">training_center.dao.ScheduleDaoTest#testSaveLessonWhenStartNull</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: Дата и время занятия не должны быть null
+	at training_center.dao.ScheduleDao.saveLesson(ScheduleDao.java:99)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at training_center.dao.ScheduleDao$$SpringCGLIB$$0.saveLesson(&lt;generated&gt;)
+	at training_center.dao.ScheduleDaoTest.testSaveLessonWhenStartNull(ScheduleDaoTest.java:286)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m45">training_center.dao.ScheduleDaoTest#testSaveLessonWhenTeacherNotAssignedToCourse</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: Преподаватель не назначен на данный курс
+	at training_center.dao.ScheduleDao.saveLesson(ScheduleDao.java:120)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at training_center.dao.ScheduleDao$$SpringCGLIB$$0.saveLesson(&lt;generated&gt;)
+	at training_center.dao.ScheduleDaoTest.testSaveLessonWhenTeacherNotAssignedToCourse(ScheduleDaoTest.java:342)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m46">training_center.dao.ScheduleDaoTest#testSaveLessonWhenTeacherNotFound</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: Преподаватель с id=-999 не найден
+	at training_center.dao.ScheduleDao.saveLesson(ScheduleDao.java:113)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at training_center.dao.ScheduleDao$$SpringCGLIB$$0.saveLesson(&lt;generated&gt;)
+	at training_center.dao.ScheduleDaoTest.testSaveLessonWhenTeacherNotFound(ScheduleDaoTest.java:325)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m47">training_center.dao.ScheduleDaoTest#testUpdate</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m48">training_center.dao.StudentDaoTest#testDelete</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m49">training_center.dao.StudentDaoTest#testDeleteById</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m50">training_center.dao.StudentDaoTest#testDeleteByIdWhenStudentDoesNotExist</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m51">training_center.dao.StudentDaoTest#testDeleteDetached</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m52">training_center.dao.StudentDaoTest#testFindAll</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m53">training_center.dao.StudentDaoTest#testFindByCourseId</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m54">training_center.dao.StudentDaoTest#testFindByCourseIdEmpty</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m55">training_center.dao.StudentDaoTest#testFindByFullName</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m56">training_center.dao.StudentDaoTest#testFindByFullNameEmpty</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m57">training_center.dao.StudentDaoTest#testGetCourseHistory</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m58">training_center.dao.StudentDaoTest#testGetCourseHistoryEmpty</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m59">training_center.dao.StudentDaoTest#testSaveAndFindById</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m60">training_center.dao.StudentDaoTest#testUpdate</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m61">training_center.dao.StudentDaoTest#testUpdateDetached</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m62">training_center.dao.TeacherDaoTest#testDelete</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m63">training_center.dao.TeacherDaoTest#testDeleteById</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m64">training_center.dao.TeacherDaoTest#testDeleteByIdWhenNotExists</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m65">training_center.dao.TeacherDaoTest#testDeleteDetached</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m66">training_center.dao.TeacherDaoTest#testFindAll</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m67">training_center.dao.TeacherDaoTest#testFindByCompanyIdEmpty</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m68">training_center.dao.TeacherDaoTest#testFindByCourseIdEmpty</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m69">training_center.dao.TeacherDaoTest#testFindByFullName</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m70">training_center.dao.TeacherDaoTest#testFindByFullNameEmpty</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m71">training_center.dao.TeacherDaoTest#testGetCoursesByTeacherIdEmpty</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m72">training_center.dao.TeacherDaoTest#testSaveAndFindById</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m73">training_center.dao.TeacherDaoTest#testUpdate</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m74">training_center.dao.TeacherDaoTest#testUpdateDetached</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
