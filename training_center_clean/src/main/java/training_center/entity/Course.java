@@ -13,23 +13,17 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "courses")
 public class Course {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     @Column(name = "title", nullable = false, length = 200)
     private String title;
-
     @Column(name = "duration_unit", nullable = false, length = 20)
     private String durationUnit;
-
     @Column(name = "duration_value", nullable = false)
     private Integer durationValue;
-
     @Column(name = "intensity", nullable = false)
     private Integer intensity;
-
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "company_id", nullable = false)
     private Company company;
@@ -87,5 +81,9 @@ public class Course {
 
     public void setCompany(Company company) {
         this.company = company;
+    }
+    
+    public void setId(Long id) {
+        this.id = id;
     }
 }

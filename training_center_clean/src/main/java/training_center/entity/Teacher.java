@@ -13,14 +13,11 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "teachers")
 public class Teacher {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     @Column(name = "full_name", nullable = false, length = 200)
     private String fullName;
-
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "company_id", nullable = false)
     private Company company;
@@ -51,5 +48,9 @@ public class Teacher {
 
     public void setCompany(Company company) {
         this.company = company;
+    }
+    
+    public void setId(Long id) {
+        this.id = id;
     }
 }

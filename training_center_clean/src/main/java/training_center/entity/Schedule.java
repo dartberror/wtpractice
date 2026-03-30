@@ -15,22 +15,17 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "schedule")
 public class Schedule {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "course_id", nullable = false)
     private Course course;
-
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "teacher_id", nullable = false)
     private Teacher teacher;
-
     @Column(name = "start_at", nullable = false)
     private OffsetDateTime startAt;
-
     @Column(name = "end_at", nullable = false)
     private OffsetDateTime endAt;
 
@@ -78,5 +73,9 @@ public class Schedule {
 
     public void setEndAt(OffsetDateTime endAt) {
         this.endAt = endAt;
+    }
+    
+    public void setId(Long id) {
+        this.id = id;
     }
 }

@@ -14,20 +14,16 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "course_students")
 public class CourseStudent {
-
     @EmbeddedId
     private CourseStudentId id;
-
     @ManyToOne(fetch = FetchType.LAZY)
     @MapsId("studentId")
     @JoinColumn(name = "student_id", nullable = false)
     private Student student;
-
     @ManyToOne(fetch = FetchType.LAZY)
     @MapsId("courseId")
     @JoinColumn(name = "course_id", nullable = false)
     private Course course;
-
     @Column(name = "enrolled_at", nullable = false)
     private OffsetDateTime enrolledAt;
 

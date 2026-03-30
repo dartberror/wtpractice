@@ -8,15 +8,12 @@ import jakarta.persistence.Embeddable;
 
 @Embeddable
 public class CourseStudentId implements Serializable {
-
     private static final long serialVersionUID = 1L;
-
     @Column(name = "student_id")
     private Long studentId;
-
     @Column(name = "course_id")
     private Long courseId;
-
+    
     public CourseStudentId() {
     }
 

@@ -11,15 +11,12 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "course_teachers")
 public class CourseTeacher {
-
     @EmbeddedId
     private CourseTeacherId id;
-
     @ManyToOne(fetch = FetchType.LAZY)
     @MapsId("courseId")
     @JoinColumn(name = "course_id", nullable = false)
     private Course course;
-
     @ManyToOne(fetch = FetchType.LAZY)
     @MapsId("teacherId")
     @JoinColumn(name = "teacher_id", nullable = false)

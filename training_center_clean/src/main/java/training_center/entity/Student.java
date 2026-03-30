@@ -10,11 +10,9 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "students")
 public class Student {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     @Column(name = "full_name", nullable = false, length = 200)
     private String fullName;
 
