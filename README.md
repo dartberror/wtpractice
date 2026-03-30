@@ -258,5 +258,5 @@
 ## Результаты выполнения тестов:
 ![Результаты тестов](assets/schema_db.png "Результаты тестов")
 ## Отчет о покрытии:
-
+[Открыть HTML-отчет](https://dartberror.github.io/wtpractice/) <br>
 см. папку training_center_clean
