@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="ru"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>StudentDao.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">training_center_clean</a> &gt; <a href="index.source.html" class="el_package">training_center.dao</a> &gt; <span class="el_source">StudentDao.java</span></div><h1>StudentDao.java</h1><pre class="source lang-java linenums">package training_center.dao;
+
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
+
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
+import training_center.entity.Course;
+import training_center.entity.Student;
+
+@Repository
+@Transactional
+<span class="fc" id="L15">public class StudentDao {</span>
+    @PersistenceContext
+    private EntityManager entityManager;
+
+    public void save(Student student) {
+<span class="fc" id="L20">        entityManager.persist(student);</span>
+<span class="fc" id="L21">    }</span>
+
+    @Transactional(readOnly = true)
+    public Student findById(Long id) {
+<span class="fc" id="L25">        return entityManager.find(Student.class, id);</span>
+    }
+
+    @Transactional(readOnly = true)
+    public List&lt;Student&gt; findAll() {
+<span class="fc" id="L30">        return entityManager.createQuery(</span>
+                &quot;select s from Student s order by s.fullName&quot;,
+                Student.class
+<span class="fc" id="L33">        ).getResultList();</span>
+    }
+
+    @Transactional(readOnly = true)
+    public List&lt;Student&gt; findByFullName(String fullNamePart) {
+<span class="fc" id="L38">        return entityManager.createQuery(</span>
+                &quot;select s from Student s &quot; +
+                &quot;where lower(s.fullName) like lower(:fullNamePart) &quot; +
+                &quot;order by s.fullName&quot;,
+                Student.class
+        )
+<span class="fc" id="L44">        .setParameter(&quot;fullNamePart&quot;, &quot;%&quot; + fullNamePart + &quot;%&quot;)</span>
+<span class="fc" id="L45">        .getResultList();</span>
+    }
+
+    public void update(Student student) {
+<span class="fc" id="L49">        entityManager.merge(student);</span>
+<span class="fc" id="L50">    }</span>
+
+    public void delete(Student student) {
+<span class="fc" id="L53">        entityManager.remove(entityManager.merge(student));</span>
+<span class="fc" id="L54">    }</span>
+
+    public void deleteById(Long id) {
+<span class="fc" id="L57">        Student student = findById(id);</span>
+<span class="fc bfc" id="L58" title="All 2 branches covered.">        if (student != null) {</span>
+<span class="fc" id="L59">            entityManager.remove(student);</span>
+        }
+<span class="fc" id="L61">    }</span>
+
+    @Transactional(readOnly = true)
+    public List&lt;Student&gt; findByCourseId(Long courseId) {
+<span class="fc" id="L65">        return entityManager.createQuery(</span>
+                &quot;select cs.student &quot; +
+                &quot;from CourseStudent cs &quot; +
+                &quot;where cs.course.id = :courseId &quot; +
+                &quot;order by cs.student.fullName&quot;,
+                Student.class
+        )
+<span class="fc" id="L72">        .setParameter(&quot;courseId&quot;, courseId)</span>
+<span class="fc" id="L73">        .getResultList();</span>
+    }
+
+    @Transactional(readOnly = true)
+    public List&lt;Course&gt; getCourseHistory(Long studentId) {
+<span class="fc" id="L78">        return entityManager.createQuery(</span>
+                &quot;select cs.course &quot; +
+                &quot;from CourseStudent cs &quot; +
+                &quot;where cs.student.id = :studentId &quot; +
+                &quot;order by cs.enrolledAt desc, cs.course.title&quot;,
+                Course.class
+        )
+<span class="fc" id="L85">        .setParameter(&quot;studentId&quot;, studentId)</span>
+<span class="fc" id="L86">        .getResultList();</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>
