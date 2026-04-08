@@ -1,157 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="75" passed="75" failed="0" skipped="0">
+<testng-results ignored="0" total="102" passed="102" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-30T15:56:24 MSK" name="Surefire suite" finished-at="2026-03-30T15:56:54 MSK" duration-ms="30334">
+  <suite started-at="2026-04-08T11:11:33 MSK" name="Surefire suite" finished-at="2026-04-08T11:13:24 MSK" duration-ms="111005">
     <groups>
     </groups>
-    <test started-at="2026-03-30T15:56:24 MSK" name="Surefire test" finished-at="2026-03-30T15:56:54 MSK" duration-ms="30334">
+    <test started-at="2026-04-08T11:11:33 MSK" name="Surefire test" finished-at="2026-04-08T11:13:24 MSK" duration-ms="111005">
       <class name="training_center.dao.ScheduleDaoTest">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:40 MSK" name="setUpClass" finished-at="2026-03-30T15:56:40 MSK" duration-ms="358" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:50 MSK" name="setUpClass" finished-at="2026-04-08T11:11:50 MSK" duration-ms="493" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:40 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:41 MSK" duration-ms="80" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:50 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:50 MSK" duration-ms="84" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:41 MSK" name="setUpDao" finished-at="2026-03-30T15:56:41 MSK" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:50 MSK" name="setUpDao" finished-at="2026-04-08T11:11:50 MSK" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method signature="testDelete()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:41 MSK" name="testDelete" finished-at="2026-03-30T15:56:41 MSK" duration-ms="448" status="PASS">
+        <test-method signature="testDelete()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:50 MSK" name="testDelete" finished-at="2026-04-08T11:11:51 MSK" duration-ms="499" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDelete -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:41 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:41 MSK" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:51 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:51 MSK" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:41 MSK" name="setUpDao" finished-at="2026-03-30T15:56:41 MSK" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:51 MSK" name="setUpDao" finished-at="2026-04-08T11:11:51 MSK" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method signature="testDeleteByIdWhenExists()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:41 MSK" name="testDeleteByIdWhenExists" finished-at="2026-03-30T15:56:42 MSK" duration-ms="578" status="PASS">
+        <test-method signature="testDeleteByIdWhenExists()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:51 MSK" name="testDeleteByIdWhenExists" finished-at="2026-04-08T11:11:51 MSK" duration-ms="618" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteByIdWhenExists -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:42 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:42 MSK" duration-ms="21" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:51 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:51 MSK" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="testDeleteByIdWhenNotExists()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:42 MSK" name="testDeleteByIdWhenNotExists" finished-at="2026-03-30T15:56:42 MSK" duration-ms="134" status="PASS">
+        <test-method signature="testDeleteByIdWhenNotExists()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:51 MSK" name="testDeleteByIdWhenNotExists" finished-at="2026-04-08T11:11:51 MSK" duration-ms="116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteByIdWhenNotExists -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:42 MSK" name="setUpDao" finished-at="2026-03-30T15:56:42 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:51 MSK" name="setUpDao" finished-at="2026-04-08T11:11:51 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:42 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:42 MSK" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:51 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:51 MSK" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:42 MSK" name="setUpDao" finished-at="2026-03-30T15:56:42 MSK" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDao -->
-        <test-method signature="testDeleteDetached()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:42 MSK" name="testDeleteDetached" finished-at="2026-03-30T15:56:42 MSK" duration-ms="493" status="PASS">
+        <test-method signature="testDeleteDetached()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:51 MSK" name="testDeleteDetached" finished-at="2026-04-08T11:11:52 MSK" duration-ms="600" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteDetached -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:42 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:42 MSK" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:51 MSK" name="setUpDao" finished-at="2026-04-08T11:11:51 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDao -->
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:52 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:52 MSK" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="testFindAll()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:42 MSK" name="testFindAll" finished-at="2026-03-30T15:56:43 MSK" duration-ms="410" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:52 MSK" name="setUpDao" finished-at="2026-04-08T11:11:52 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDao -->
+        <test-method signature="testFindAll()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:52 MSK" name="testFindAll" finished-at="2026-04-08T11:11:52 MSK" duration-ms="433" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindAll -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:42 MSK" name="setUpDao" finished-at="2026-03-30T15:56:42 MSK" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:43 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:43 MSK" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:52 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:53 MSK" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="testFindByCourseId()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:43 MSK" name="testFindByCourseId" finished-at="2026-03-30T15:56:43 MSK" duration-ms="620" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:53 MSK" name="setUpDao" finished-at="2026-04-08T11:11:53 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDao -->
+        <test-method signature="testFindByCourseId()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:53 MSK" name="testFindByCourseId" finished-at="2026-04-08T11:11:53 MSK" duration-ms="542" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindByCourseId -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:43 MSK" name="setUpDao" finished-at="2026-03-30T15:56:43 MSK" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:43 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:43 MSK" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:53 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:53 MSK" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="testFindByStudentAndInterval()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:43 MSK" name="testFindByStudentAndInterval" finished-at="2026-03-30T15:56:44 MSK" duration-ms="589" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:53 MSK" name="setUpDao" finished-at="2026-04-08T11:11:53 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDao -->
+        <test-method signature="testFindByStudentAndInterval()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:53 MSK" name="testFindByStudentAndInterval" finished-at="2026-04-08T11:11:54 MSK" duration-ms="657" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindByStudentAndInterval -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:43 MSK" name="setUpDao" finished-at="2026-03-30T15:56:43 MSK" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:44 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:44 MSK" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:54 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:54 MSK" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="testFindByTeacherAndInterval()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:44 MSK" name="testFindByTeacherAndInterval" finished-at="2026-03-30T15:56:44 MSK" duration-ms="480" status="PASS">
+        <test-method signature="testFindByTeacherAndInterval()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:54 MSK" name="testFindByTeacherAndInterval" finished-at="2026-04-08T11:11:54 MSK" duration-ms="705" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindByTeacherAndInterval -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:44 MSK" name="setUpDao" finished-at="2026-03-30T15:56:44 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:54 MSK" name="setUpDao" finished-at="2026-04-08T11:11:54 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:44 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:44 MSK" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:54 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:54 MSK" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:44 MSK" name="setUpDao" finished-at="2026-03-30T15:56:44 MSK" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDao -->
-        <test-method signature="testFindEmptyCases()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:44 MSK" name="testFindEmptyCases" finished-at="2026-03-30T15:56:45 MSK" duration-ms="264" status="PASS">
+        <test-method signature="testFindEmptyCases()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:54 MSK" name="testFindEmptyCases" finished-at="2026-04-08T11:11:55 MSK" duration-ms="245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindEmptyCases -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:45 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:45 MSK" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:45 MSK" name="setUpDao" finished-at="2026-03-30T15:56:45 MSK" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:54 MSK" name="setUpDao" finished-at="2026-04-08T11:11:54 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method signature="testSaveAndFindById()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:45 MSK" name="testSaveAndFindById" finished-at="2026-03-30T15:56:45 MSK" duration-ms="648" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:55 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:55 MSK" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanDatabase -->
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:55 MSK" name="setUpDao" finished-at="2026-04-08T11:11:55 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDao -->
+        <test-method signature="testSaveAndFindById()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:55 MSK" name="testSaveAndFindById" finished-at="2026-04-08T11:11:55 MSK" duration-ms="450" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSaveAndFindById -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:45 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:45 MSK" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:55 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:55 MSK" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:45 MSK" name="setUpDao" finished-at="2026-03-30T15:56:45 MSK" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:55 MSK" name="setUpDao" finished-at="2026-04-08T11:11:55 MSK" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method signature="testSaveLessonSuccess()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:45 MSK" name="testSaveLessonSuccess" finished-at="2026-03-30T15:56:46 MSK" duration-ms="542" status="PASS">
+        <test-method signature="testSaveLessonSuccess()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:55 MSK" name="testSaveLessonSuccess" finished-at="2026-04-08T11:11:56 MSK" duration-ms="433" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSaveLessonSuccess -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:46 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:46 MSK" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:56 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:56 MSK" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:46 MSK" name="setUpDao" finished-at="2026-03-30T15:56:46 MSK" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:56 MSK" name="setUpDao" finished-at="2026-04-08T11:11:56 MSK" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method signature="testSaveLessonWhenBothDatesNull()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:46 MSK" name="testSaveLessonWhenBothDatesNull" finished-at="2026-03-30T15:56:46 MSK" duration-ms="52" status="PASS">
+        <test-method signature="testSaveLessonWhenBothDatesNull()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:56 MSK" name="testSaveLessonWhenBothDatesNull" finished-at="2026-04-08T11:11:56 MSK" duration-ms="54" status="PASS">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[Дата и время занятия не должны быть null]]>
@@ -217,15 +217,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSaveLessonWhenBothDatesNull -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:46 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:46 MSK" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:56 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:56 MSK" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:46 MSK" name="setUpDao" finished-at="2026-03-30T15:56:46 MSK" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:56 MSK" name="setUpDao" finished-at="2026-04-08T11:11:56 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method signature="testSaveLessonWhenCourseNotFound()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:46 MSK" name="testSaveLessonWhenCourseNotFound" finished-at="2026-03-30T15:56:46 MSK" duration-ms="203" status="PASS">
+        <test-method signature="testSaveLessonWhenCourseNotFound()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:56 MSK" name="testSaveLessonWhenCourseNotFound" finished-at="2026-04-08T11:11:56 MSK" duration-ms="198" status="PASS">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[Курс с id=-999 не найден]]>
@@ -291,15 +291,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSaveLessonWhenCourseNotFound -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:46 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:46 MSK" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:56 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:56 MSK" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:46 MSK" name="setUpDao" finished-at="2026-03-30T15:56:46 MSK" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDao -->
-        <test-method signature="testSaveLessonWhenEndNull()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:46 MSK" name="testSaveLessonWhenEndNull" finished-at="2026-03-30T15:56:46 MSK" duration-ms="50" status="PASS">
+        <test-method signature="testSaveLessonWhenEndNull()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:56 MSK" name="testSaveLessonWhenEndNull" finished-at="2026-04-08T11:11:56 MSK" duration-ms="54" status="PASS">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[Дата и время занятия не должны быть null]]>
@@ -365,15 +361,19 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSaveLessonWhenEndNull -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:46 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:46 MSK" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:46 MSK" name="setUpDao" finished-at="2026-03-30T15:56:46 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:56 MSK" name="setUpDao" finished-at="2026-04-08T11:11:56 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method signature="testSaveLessonWhenInvalidInterval()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:46 MSK" name="testSaveLessonWhenInvalidInterval" finished-at="2026-03-30T15:56:46 MSK" duration-ms="50" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:56 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:56 MSK" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanDatabase -->
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:56 MSK" name="setUpDao" finished-at="2026-04-08T11:11:56 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDao -->
+        <test-method signature="testSaveLessonWhenInvalidInterval()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:56 MSK" name="testSaveLessonWhenInvalidInterval" finished-at="2026-04-08T11:11:56 MSK" duration-ms="179" status="PASS">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[Некорректный временной интервал: endAt должен быть больше startAt]]>
@@ -439,11 +439,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSaveLessonWhenInvalidInterval -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:46 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:46 MSK" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:56 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:56 MSK" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="testSaveLessonWhenStartNull()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:46 MSK" name="testSaveLessonWhenStartNull" finished-at="2026-03-30T15:56:46 MSK" duration-ms="55" status="PASS">
+        <test-method signature="testSaveLessonWhenStartNull()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:56 MSK" name="testSaveLessonWhenStartNull" finished-at="2026-04-08T11:11:56 MSK" duration-ms="170" status="PASS">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[Дата и время занятия не должны быть null]]>
@@ -509,15 +509,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSaveLessonWhenStartNull -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:46 MSK" name="setUpDao" finished-at="2026-03-30T15:56:46 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:56 MSK" name="setUpDao" finished-at="2026-04-08T11:11:56 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:46 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:46 MSK" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:56 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:56 MSK" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="testSaveLessonWhenTeacherNotAssignedToCourse()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:46 MSK" name="testSaveLessonWhenTeacherNotAssignedToCourse" finished-at="2026-03-30T15:56:47 MSK" duration-ms="274" status="PASS">
+        <test-method signature="testSaveLessonWhenTeacherNotAssignedToCourse()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:56 MSK" name="testSaveLessonWhenTeacherNotAssignedToCourse" finished-at="2026-04-08T11:11:57 MSK" duration-ms="290" status="PASS">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[Преподаватель не назначен на данный курс]]>
@@ -583,15 +583,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSaveLessonWhenTeacherNotAssignedToCourse -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:46 MSK" name="setUpDao" finished-at="2026-03-30T15:56:46 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:56 MSK" name="setUpDao" finished-at="2026-04-08T11:11:56 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:47 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:47 MSK" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:57 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:57 MSK" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="testSaveLessonWhenTeacherNotFound()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:47 MSK" name="testSaveLessonWhenTeacherNotFound" finished-at="2026-03-30T15:56:47 MSK" duration-ms="209" status="PASS">
+        <test-method signature="testSaveLessonWhenTeacherNotFound()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:57 MSK" name="testSaveLessonWhenTeacherNotFound" finished-at="2026-04-08T11:11:57 MSK" duration-ms="218" status="PASS">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[Преподаватель с id=-999 не найден]]>
@@ -657,499 +657,617 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSaveLessonWhenTeacherNotFound -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:47 MSK" name="setUpDao" finished-at="2026-03-30T15:56:47 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:57 MSK" name="setUpDao" finished-at="2026-04-08T11:11:57 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:47 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:47 MSK" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:57 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:57 MSK" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="testUpdate()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:47 MSK" name="testUpdate" finished-at="2026-03-30T15:56:48 MSK" duration-ms="621" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUpdate -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:47 MSK" name="setUpDao" finished-at="2026-03-30T15:56:47 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:57 MSK" name="setUpDao" finished-at="2026-04-08T11:11:57 MSK" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:training_center.dao.ScheduleDaoTest@78fbff54]" started-at="2026-03-30T15:56:48 MSK" name="tearDownClass" finished-at="2026-03-30T15:56:48 MSK" duration-ms="2" status="PASS">
+        <test-method signature="testUpdate()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:57 MSK" name="testUpdate" finished-at="2026-04-08T11:11:57 MSK" duration-ms="487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:training_center.dao.ScheduleDaoTest@19fb8826]" started-at="2026-04-08T11:11:57 MSK" name="tearDownClass" finished-at="2026-04-08T11:11:57 MSK" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- training_center.dao.ScheduleDaoTest -->
       <class name="training_center.dao.StudentDaoTest">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:48 MSK" name="setUpClass" finished-at="2026-03-30T15:56:48 MSK" duration-ms="354" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:11:57 MSK" name="setUpClass" finished-at="2026-04-08T11:11:58 MSK" duration-ms="358" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:48 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:48 MSK" duration-ms="172" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:11:58 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:58 MSK" duration-ms="88" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="testDelete()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:48 MSK" name="testDelete" finished-at="2026-03-30T15:56:48 MSK" duration-ms="203" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:11:58 MSK" name="setUpDao" finished-at="2026-04-08T11:11:58 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDao -->
+        <test-method signature="testDelete()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:11:58 MSK" name="testDelete" finished-at="2026-04-08T11:11:58 MSK" duration-ms="208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDelete -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:48 MSK" name="setUpDao" finished-at="2026-03-30T15:56:48 MSK" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:48 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:48 MSK" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:11:58 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:58 MSK" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:48 MSK" name="setUpDao" finished-at="2026-03-30T15:56:48 MSK" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:11:58 MSK" name="setUpDao" finished-at="2026-04-08T11:11:58 MSK" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method signature="testDeleteById()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:48 MSK" name="testDeleteById" finished-at="2026-03-30T15:56:48 MSK" duration-ms="197" status="PASS">
+        <test-method signature="testDeleteById()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:11:58 MSK" name="testDeleteById" finished-at="2026-04-08T11:11:58 MSK" duration-ms="208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteById -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:48 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:48 MSK" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:11:58 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:58 MSK" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:48 MSK" name="setUpDao" finished-at="2026-03-30T15:56:48 MSK" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:11:58 MSK" name="setUpDao" finished-at="2026-04-08T11:11:58 MSK" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method signature="testDeleteByIdWhenStudentDoesNotExist()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:48 MSK" name="testDeleteByIdWhenStudentDoesNotExist" finished-at="2026-03-30T15:56:49 MSK" duration-ms="123" status="PASS">
+        <test-method signature="testDeleteByIdWhenStudentDoesNotExist()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:11:58 MSK" name="testDeleteByIdWhenStudentDoesNotExist" finished-at="2026-04-08T11:11:58 MSK" duration-ms="108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteByIdWhenStudentDoesNotExist -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:49 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:49 MSK" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:11:58 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:58 MSK" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="testDeleteDetached()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:49 MSK" name="testDeleteDetached" finished-at="2026-03-30T15:56:49 MSK" duration-ms="260" status="PASS">
+        <test-method signature="testDeleteDetached()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:11:58 MSK" name="testDeleteDetached" finished-at="2026-04-08T11:11:59 MSK" duration-ms="248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteDetached -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:49 MSK" name="setUpDao" finished-at="2026-03-30T15:56:49 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:11:58 MSK" name="setUpDao" finished-at="2026-04-08T11:11:58 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:49 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:49 MSK" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:11:59 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:59 MSK" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:49 MSK" name="setUpDao" finished-at="2026-03-30T15:56:49 MSK" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDao -->
-        <test-method signature="testFindAll()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:49 MSK" name="testFindAll" finished-at="2026-03-30T15:56:49 MSK" duration-ms="131" status="PASS">
+        <test-method signature="testFindAll()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:11:59 MSK" name="testFindAll" finished-at="2026-04-08T11:11:59 MSK" duration-ms="142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindAll -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:49 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:49 MSK" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:11:59 MSK" name="setUpDao" finished-at="2026-04-08T11:11:59 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDao -->
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:11:59 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:59 MSK" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="testFindByCourseId()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:49 MSK" name="testFindByCourseId" finished-at="2026-03-30T15:56:49 MSK" duration-ms="342" status="PASS">
+        <test-method signature="testFindByCourseId()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:11:59 MSK" name="testFindByCourseId" finished-at="2026-04-08T11:11:59 MSK" duration-ms="387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindByCourseId -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:49 MSK" name="setUpDao" finished-at="2026-03-30T15:56:49 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:11:59 MSK" name="setUpDao" finished-at="2026-04-08T11:11:59 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:49 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:49 MSK" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:11:59 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:59 MSK" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:49 MSK" name="setUpDao" finished-at="2026-03-30T15:56:49 MSK" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDao -->
-        <test-method signature="testFindByCourseIdEmpty()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:49 MSK" name="testFindByCourseIdEmpty" finished-at="2026-03-30T15:56:49 MSK" duration-ms="57" status="PASS">
+        <test-method signature="testFindByCourseIdEmpty()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:11:59 MSK" name="testFindByCourseIdEmpty" finished-at="2026-04-08T11:11:59 MSK" duration-ms="58" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindByCourseIdEmpty -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:49 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:49 MSK" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:11:59 MSK" name="setUpDao" finished-at="2026-04-08T11:11:59 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDao -->
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:11:59 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:59 MSK" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="testFindByFullName()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:49 MSK" name="testFindByFullName" finished-at="2026-03-30T15:56:50 MSK" duration-ms="126" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:11:59 MSK" name="setUpDao" finished-at="2026-04-08T11:11:59 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDao -->
+        <test-method signature="testFindByFullName()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:11:59 MSK" name="testFindByFullName" finished-at="2026-04-08T11:11:59 MSK" duration-ms="153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindByFullName -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:49 MSK" name="setUpDao" finished-at="2026-03-30T15:56:49 MSK" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:50 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:50 MSK" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:11:59 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:59 MSK" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="testFindByFullNameEmpty()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:50 MSK" name="testFindByFullNameEmpty" finished-at="2026-03-30T15:56:50 MSK" duration-ms="162" status="PASS">
+        <test-method signature="testFindByFullNameEmpty()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:11:59 MSK" name="testFindByFullNameEmpty" finished-at="2026-04-08T11:11:59 MSK" duration-ms="61" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindByFullNameEmpty -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:50 MSK" name="setUpDao" finished-at="2026-03-30T15:56:50 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:11:59 MSK" name="setUpDao" finished-at="2026-04-08T11:11:59 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:50 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:50 MSK" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:11:59 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:59 MSK" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:50 MSK" name="setUpDao" finished-at="2026-03-30T15:56:50 MSK" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDao -->
-        <test-method signature="testGetCourseHistory()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:50 MSK" name="testGetCourseHistory" finished-at="2026-03-30T15:56:50 MSK" duration-ms="353" status="PASS">
+        <test-method signature="testGetCourseHistory()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:11:59 MSK" name="testGetCourseHistory" finished-at="2026-04-08T11:12:00 MSK" duration-ms="502" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetCourseHistory -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:50 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:50 MSK" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:11:59 MSK" name="setUpDao" finished-at="2026-04-08T11:11:59 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDao -->
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:12:00 MSK" name="cleanDatabase" finished-at="2026-04-08T11:12:00 MSK" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="testGetCourseHistoryEmpty()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:50 MSK" name="testGetCourseHistoryEmpty" finished-at="2026-03-30T15:56:50 MSK" duration-ms="58" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:12:00 MSK" name="setUpDao" finished-at="2026-04-08T11:12:00 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDao -->
+        <test-method signature="testGetCourseHistoryEmpty()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:12:00 MSK" name="testGetCourseHistoryEmpty" finished-at="2026-04-08T11:12:00 MSK" duration-ms="57" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetCourseHistoryEmpty -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:50 MSK" name="setUpDao" finished-at="2026-03-30T15:56:50 MSK" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:50 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:50 MSK" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:12:00 MSK" name="cleanDatabase" finished-at="2026-04-08T11:12:00 MSK" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:50 MSK" name="setUpDao" finished-at="2026-03-30T15:56:50 MSK" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDao -->
-        <test-method signature="testSaveAndFindById()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:50 MSK" name="testSaveAndFindById" finished-at="2026-03-30T15:56:50 MSK" duration-ms="122" status="PASS">
+        <test-method signature="testSaveAndFindById()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:12:00 MSK" name="testSaveAndFindById" finished-at="2026-04-08T11:12:00 MSK" duration-ms="131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSaveAndFindById -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:50 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:50 MSK" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:12:00 MSK" name="setUpDao" finished-at="2026-04-08T11:12:00 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDao -->
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:12:00 MSK" name="cleanDatabase" finished-at="2026-04-08T11:12:00 MSK" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="testUpdate()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:50 MSK" name="testUpdate" finished-at="2026-03-30T15:56:51 MSK" duration-ms="206" status="PASS">
+        <test-method signature="testUpdate()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:12:00 MSK" name="testUpdate" finished-at="2026-04-08T11:12:00 MSK" duration-ms="216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdate -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:50 MSK" name="setUpDao" finished-at="2026-03-30T15:56:50 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:12:00 MSK" name="setUpDao" finished-at="2026-04-08T11:12:00 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:51 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:51 MSK" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:12:00 MSK" name="cleanDatabase" finished-at="2026-04-08T11:12:00 MSK" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="testUpdateDetached()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:51 MSK" name="testUpdateDetached" finished-at="2026-03-30T15:56:51 MSK" duration-ms="463" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUpdateDetached -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:51 MSK" name="setUpDao" finished-at="2026-03-30T15:56:51 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:12:00 MSK" name="setUpDao" finished-at="2026-04-08T11:12:00 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:training_center.dao.StudentDaoTest@3e10dc6]" started-at="2026-03-30T15:56:51 MSK" name="tearDownClass" finished-at="2026-03-30T15:56:51 MSK" duration-ms="2" status="PASS">
+        <test-method signature="testUpdateDetached()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:12:00 MSK" name="testUpdateDetached" finished-at="2026-04-08T11:12:01 MSK" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateDetached -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:training_center.dao.StudentDaoTest@192d74fb]" started-at="2026-04-08T11:12:01 MSK" name="tearDownClass" finished-at="2026-04-08T11:12:01 MSK" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- training_center.dao.StudentDaoTest -->
+      <class name="training_center.system.WebSystemTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:training_center.system.WebSystemTest@62ea3440]" started-at="2026-04-08T11:12:04 MSK" name="setUp" finished-at="2026-04-08T11:12:07 MSK" duration-ms="2839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addStudentToCourse_shouldSucceed()[pri:0, instance:training_center.system.WebSystemTest@62ea3440]" started-at="2026-04-08T11:12:07 MSK" name="addStudentToCourse_shouldSucceed" finished-at="2026-04-08T11:12:11 MSK" duration-ms="3857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStudentToCourse_shouldSucceed -->
+        <test-method signature="addTeacherToCourse_shouldSucceed()[pri:0, instance:training_center.system.WebSystemTest@62ea3440]" started-at="2026-04-08T11:12:11 MSK" name="addTeacherToCourse_shouldSucceed" finished-at="2026-04-08T11:12:15 MSK" duration-ms="3806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTeacherToCourse_shouldSucceed -->
+        <test-method signature="createCompany_shouldShowValidationErrorWhenAddressMissing()[pri:0, instance:training_center.system.WebSystemTest@62ea3440]" started-at="2026-04-08T11:12:15 MSK" name="createCompany_shouldShowValidationErrorWhenAddressMissing" finished-at="2026-04-08T11:12:15 MSK" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCompany_shouldShowValidationErrorWhenAddressMissing -->
+        <test-method signature="createCompany_shouldShowValidationErrorWhenNameMissing()[pri:0, instance:training_center.system.WebSystemTest@62ea3440]" started-at="2026-04-08T11:12:15 MSK" name="createCompany_shouldShowValidationErrorWhenNameMissing" finished-at="2026-04-08T11:12:15 MSK" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCompany_shouldShowValidationErrorWhenNameMissing -->
+        <test-method signature="createCompany_shouldSucceed()[pri:0, instance:training_center.system.WebSystemTest@62ea3440]" started-at="2026-04-08T11:12:15 MSK" name="createCompany_shouldSucceed" finished-at="2026-04-08T11:12:16 MSK" duration-ms="551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCompany_shouldSucceed -->
+        <test-method signature="createCourse_shouldShowValidationErrorWhenDurationInvalid()[pri:0, instance:training_center.system.WebSystemTest@62ea3440]" started-at="2026-04-08T11:12:16 MSK" name="createCourse_shouldShowValidationErrorWhenDurationInvalid" finished-at="2026-04-08T11:12:17 MSK" duration-ms="1385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCourse_shouldShowValidationErrorWhenDurationInvalid -->
+        <test-method signature="createCourse_shouldShowValidationErrorWhenIntensityInvalid()[pri:0, instance:training_center.system.WebSystemTest@62ea3440]" started-at="2026-04-08T11:12:17 MSK" name="createCourse_shouldShowValidationErrorWhenIntensityInvalid" finished-at="2026-04-08T11:12:19 MSK" duration-ms="1480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCourse_shouldShowValidationErrorWhenIntensityInvalid -->
+        <test-method signature="createCourse_shouldShowValidationErrorWhenTitleMissing()[pri:0, instance:training_center.system.WebSystemTest@62ea3440]" started-at="2026-04-08T11:12:19 MSK" name="createCourse_shouldShowValidationErrorWhenTitleMissing" finished-at="2026-04-08T11:12:20 MSK" duration-ms="1397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCourse_shouldShowValidationErrorWhenTitleMissing -->
+        <test-method signature="createCourse_shouldSucceed()[pri:0, instance:training_center.system.WebSystemTest@62ea3440]" started-at="2026-04-08T11:12:20 MSK" name="createCourse_shouldSucceed" finished-at="2026-04-08T11:12:22 MSK" duration-ms="1598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCourse_shouldSucceed -->
+        <test-method signature="createLesson_shouldShowValidationErrorWhenEndBeforeStart()[pri:0, instance:training_center.system.WebSystemTest@62ea3440]" started-at="2026-04-08T11:12:22 MSK" name="createLesson_shouldShowValidationErrorWhenEndBeforeStart" finished-at="2026-04-08T11:12:31 MSK" duration-ms="9289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLesson_shouldShowValidationErrorWhenEndBeforeStart -->
+        <test-method signature="createLesson_shouldSucceed()[pri:0, instance:training_center.system.WebSystemTest@62ea3440]" started-at="2026-04-08T11:12:31 MSK" name="createLesson_shouldSucceed" finished-at="2026-04-08T11:12:36 MSK" duration-ms="5295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLesson_shouldSucceed -->
+        <test-method signature="createStudent_shouldShowValidationErrorWhenFullNameMissing()[pri:0, instance:training_center.system.WebSystemTest@62ea3440]" started-at="2026-04-08T11:12:36 MSK" name="createStudent_shouldShowValidationErrorWhenFullNameMissing" finished-at="2026-04-08T11:12:37 MSK" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createStudent_shouldShowValidationErrorWhenFullNameMissing -->
+        <test-method signature="createStudent_shouldSucceed()[pri:0, instance:training_center.system.WebSystemTest@62ea3440]" started-at="2026-04-08T11:12:37 MSK" name="createStudent_shouldSucceed" finished-at="2026-04-08T11:12:37 MSK" duration-ms="564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createStudent_shouldSucceed -->
+        <test-method signature="createTeacher_shouldShowValidationErrorWhenFullNameMissing()[pri:0, instance:training_center.system.WebSystemTest@62ea3440]" started-at="2026-04-08T11:12:37 MSK" name="createTeacher_shouldShowValidationErrorWhenFullNameMissing" finished-at="2026-04-08T11:12:38 MSK" duration-ms="1112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTeacher_shouldShowValidationErrorWhenFullNameMissing -->
+        <test-method signature="createTeacher_shouldSucceed()[pri:0, instance:training_center.system.WebSystemTest@62ea3440]" started-at="2026-04-08T11:12:38 MSK" name="createTeacher_shouldSucceed" finished-at="2026-04-08T11:12:41 MSK" duration-ms="2186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTeacher_shouldSucceed -->
+        <test-method signature="deleteCourse_shouldSucceed()[pri:0, instance:training_center.system.WebSystemTest@62ea3440]" started-at="2026-04-08T11:12:41 MSK" name="deleteCourse_shouldSucceed" finished-at="2026-04-08T11:12:44 MSK" duration-ms="3101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCourse_shouldSucceed -->
+        <test-method signature="deleteStudent_shouldSucceed()[pri:0, instance:training_center.system.WebSystemTest@62ea3440]" started-at="2026-04-08T11:12:44 MSK" name="deleteStudent_shouldSucceed" finished-at="2026-04-08T11:12:45 MSK" duration-ms="1202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteStudent_shouldSucceed -->
+        <test-method signature="deleteTeacher_shouldSucceed()[pri:0, instance:training_center.system.WebSystemTest@62ea3440]" started-at="2026-04-08T11:12:45 MSK" name="deleteTeacher_shouldSucceed" finished-at="2026-04-08T11:12:49 MSK" duration-ms="4046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTeacher_shouldSucceed -->
+        <test-method signature="homePage_shouldOpenAndContainMainNavigation()[pri:0, instance:training_center.system.WebSystemTest@62ea3440]" started-at="2026-04-08T11:12:49 MSK" name="homePage_shouldOpenAndContainMainNavigation" finished-at="2026-04-08T11:12:49 MSK" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage_shouldOpenAndContainMainNavigation -->
+        <test-method signature="removeStudentFromCourse_shouldSucceed()[pri:0, instance:training_center.system.WebSystemTest@62ea3440]" started-at="2026-04-08T11:12:49 MSK" name="removeStudentFromCourse_shouldSucceed" finished-at="2026-04-08T11:12:53 MSK" duration-ms="4124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeStudentFromCourse_shouldSucceed -->
+        <test-method signature="removeTeacherFromCourse_shouldSucceed()[pri:0, instance:training_center.system.WebSystemTest@62ea3440]" started-at="2026-04-08T11:12:53 MSK" name="removeTeacherFromCourse_shouldSucceed" finished-at="2026-04-08T11:13:00 MSK" duration-ms="6338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeTeacherFromCourse_shouldSucceed -->
+        <test-method signature="studentSchedule_shouldShowValidationErrorWhenOnlyFromDateProvided()[pri:0, instance:training_center.system.WebSystemTest@62ea3440]" started-at="2026-04-08T11:13:00 MSK" name="studentSchedule_shouldShowValidationErrorWhenOnlyFromDateProvided" finished-at="2026-04-08T11:13:00 MSK" duration-ms="646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentSchedule_shouldShowValidationErrorWhenOnlyFromDateProvided -->
+        <test-method signature="teacherSchedule_shouldShowLessonsForInterval()[pri:0, instance:training_center.system.WebSystemTest@62ea3440]" started-at="2026-04-08T11:13:00 MSK" name="teacherSchedule_shouldShowLessonsForInterval" finished-at="2026-04-08T11:13:12 MSK" duration-ms="11449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacherSchedule_shouldShowLessonsForInterval -->
+        <test-method signature="teacherSchedule_shouldShowValidationErrorWhenOnlyFromDateProvided()[pri:0, instance:training_center.system.WebSystemTest@62ea3440]" started-at="2026-04-08T11:13:12 MSK" name="teacherSchedule_shouldShowValidationErrorWhenOnlyFromDateProvided" finished-at="2026-04-08T11:13:14 MSK" duration-ms="2543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacherSchedule_shouldShowValidationErrorWhenOnlyFromDateProvided -->
+        <test-method signature="updateCourse_shouldSucceed()[pri:0, instance:training_center.system.WebSystemTest@62ea3440]" started-at="2026-04-08T11:13:14 MSK" name="updateCourse_shouldSucceed" finished-at="2026-04-08T11:13:18 MSK" duration-ms="3501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCourse_shouldSucceed -->
+        <test-method signature="updateStudent_shouldSucceed()[pri:0, instance:training_center.system.WebSystemTest@62ea3440]" started-at="2026-04-08T11:13:18 MSK" name="updateStudent_shouldSucceed" finished-at="2026-04-08T11:13:19 MSK" duration-ms="1390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateStudent_shouldSucceed -->
+        <test-method signature="updateTeacher_shouldSucceed()[pri:0, instance:training_center.system.WebSystemTest@62ea3440]" started-at="2026-04-08T11:13:19 MSK" name="updateTeacher_shouldSucceed" finished-at="2026-04-08T11:13:24 MSK" duration-ms="4436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTeacher_shouldSucceed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:training_center.system.WebSystemTest@62ea3440]" started-at="2026-04-08T11:13:24 MSK" name="tearDown" finished-at="2026-04-08T11:13:24 MSK" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- training_center.system.WebSystemTest -->
       <class name="training_center.dao.TeacherDaoTest">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:51 MSK" name="setUpClass" finished-at="2026-03-30T15:56:51 MSK" duration-ms="319" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:01 MSK" name="setUpClass" finished-at="2026-04-08T11:12:01 MSK" duration-ms="379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:51 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:51 MSK" duration-ms="80" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:01 MSK" name="cleanDatabase" finished-at="2026-04-08T11:12:01 MSK" duration-ms="89" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:51 MSK" name="setUpDao" finished-at="2026-03-30T15:56:51 MSK" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:01 MSK" name="setUpDao" finished-at="2026-04-08T11:12:01 MSK" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method signature="testDelete()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:51 MSK" name="testDelete" finished-at="2026-03-30T15:56:52 MSK" duration-ms="275" status="PASS">
+        <test-method signature="testDelete()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:01 MSK" name="testDelete" finished-at="2026-04-08T11:12:01 MSK" duration-ms="278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDelete -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:52 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:52 MSK" duration-ms="36" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:01 MSK" name="cleanDatabase" finished-at="2026-04-08T11:12:02 MSK" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:52 MSK" name="setUpDao" finished-at="2026-03-30T15:56:52 MSK" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDao -->
-        <test-method signature="testDeleteById()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:52 MSK" name="testDeleteById" finished-at="2026-03-30T15:56:52 MSK" duration-ms="278" status="PASS">
+        <test-method signature="testDeleteById()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:02 MSK" name="testDeleteById" finished-at="2026-04-08T11:12:02 MSK" duration-ms="415" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteById -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:52 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:52 MSK" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:02 MSK" name="setUpDao" finished-at="2026-04-08T11:12:02 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDao -->
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:02 MSK" name="cleanDatabase" finished-at="2026-04-08T11:12:02 MSK" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="testDeleteByIdWhenNotExists()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:52 MSK" name="testDeleteByIdWhenNotExists" finished-at="2026-03-30T15:56:52 MSK" duration-ms="219" status="PASS">
+        <test-method signature="testDeleteByIdWhenNotExists()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:02 MSK" name="testDeleteByIdWhenNotExists" finished-at="2026-04-08T11:12:02 MSK" duration-ms="116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteByIdWhenNotExists -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:52 MSK" name="setUpDao" finished-at="2026-03-30T15:56:52 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:02 MSK" name="setUpDao" finished-at="2026-04-08T11:12:02 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:52 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:52 MSK" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:02 MSK" name="cleanDatabase" finished-at="2026-04-08T11:12:02 MSK" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="testDeleteDetached()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:52 MSK" name="testDeleteDetached" finished-at="2026-03-30T15:56:52 MSK" duration-ms="259" status="PASS">
+        <test-method signature="testDeleteDetached()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:02 MSK" name="testDeleteDetached" finished-at="2026-04-08T11:12:02 MSK" duration-ms="276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteDetached -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:52 MSK" name="setUpDao" finished-at="2026-03-30T15:56:52 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:02 MSK" name="setUpDao" finished-at="2026-04-08T11:12:02 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:52 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:53 MSK" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:02 MSK" name="cleanDatabase" finished-at="2026-04-08T11:12:02 MSK" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="testFindAll()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:53 MSK" name="testFindAll" finished-at="2026-03-30T15:56:53 MSK" duration-ms="209" status="PASS">
+        <test-method signature="testFindAll()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:02 MSK" name="testFindAll" finished-at="2026-04-08T11:12:03 MSK" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindAll -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:53 MSK" name="setUpDao" finished-at="2026-03-30T15:56:53 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:02 MSK" name="setUpDao" finished-at="2026-04-08T11:12:02 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:53 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:53 MSK" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:03 MSK" name="cleanDatabase" finished-at="2026-04-08T11:12:03 MSK" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="testFindByCompanyIdEmpty()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:53 MSK" name="testFindByCompanyIdEmpty" finished-at="2026-03-30T15:56:53 MSK" duration-ms="58" status="PASS">
+        <test-method signature="testFindByCompanyIdEmpty()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:03 MSK" name="testFindByCompanyIdEmpty" finished-at="2026-04-08T11:12:03 MSK" duration-ms="57" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindByCompanyIdEmpty -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:53 MSK" name="setUpDao" finished-at="2026-03-30T15:56:53 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:03 MSK" name="setUpDao" finished-at="2026-04-08T11:12:03 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:53 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:53 MSK" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:03 MSK" name="cleanDatabase" finished-at="2026-04-08T11:12:03 MSK" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="testFindByCourseIdEmpty()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:53 MSK" name="testFindByCourseIdEmpty" finished-at="2026-03-30T15:56:53 MSK" duration-ms="55" status="PASS">
+        <test-method signature="testFindByCourseIdEmpty()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:03 MSK" name="testFindByCourseIdEmpty" finished-at="2026-04-08T11:12:03 MSK" duration-ms="59" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindByCourseIdEmpty -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:53 MSK" name="setUpDao" finished-at="2026-03-30T15:56:53 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:03 MSK" name="setUpDao" finished-at="2026-04-08T11:12:03 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:53 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:53 MSK" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:03 MSK" name="cleanDatabase" finished-at="2026-04-08T11:12:03 MSK" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:53 MSK" name="setUpDao" finished-at="2026-03-30T15:56:53 MSK" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:03 MSK" name="setUpDao" finished-at="2026-04-08T11:12:03 MSK" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method signature="testFindByFullName()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:53 MSK" name="testFindByFullName" finished-at="2026-03-30T15:56:53 MSK" duration-ms="190" status="PASS">
+        <test-method signature="testFindByFullName()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:03 MSK" name="testFindByFullName" finished-at="2026-04-08T11:12:03 MSK" duration-ms="203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindByFullName -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:53 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:53 MSK" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:03 MSK" name="cleanDatabase" finished-at="2026-04-08T11:12:03 MSK" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:53 MSK" name="setUpDao" finished-at="2026-03-30T15:56:53 MSK" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDao -->
-        <test-method signature="testFindByFullNameEmpty()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:53 MSK" name="testFindByFullNameEmpty" finished-at="2026-03-30T15:56:53 MSK" duration-ms="56" status="PASS">
+        <test-method signature="testFindByFullNameEmpty()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:03 MSK" name="testFindByFullNameEmpty" finished-at="2026-04-08T11:12:03 MSK" duration-ms="60" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindByFullNameEmpty -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:53 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:53 MSK" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:03 MSK" name="setUpDao" finished-at="2026-04-08T11:12:03 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDao -->
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:03 MSK" name="cleanDatabase" finished-at="2026-04-08T11:12:03 MSK" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="testGetCoursesByTeacherIdEmpty()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:53 MSK" name="testGetCoursesByTeacherIdEmpty" finished-at="2026-03-30T15:56:53 MSK" duration-ms="59" status="PASS">
+        <test-method signature="testGetCoursesByTeacherIdEmpty()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:03 MSK" name="testGetCoursesByTeacherIdEmpty" finished-at="2026-04-08T11:12:03 MSK" duration-ms="61" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetCoursesByTeacherIdEmpty -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:53 MSK" name="setUpDao" finished-at="2026-03-30T15:56:53 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:03 MSK" name="setUpDao" finished-at="2026-04-08T11:12:03 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:53 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:53 MSK" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:03 MSK" name="cleanDatabase" finished-at="2026-04-08T11:12:03 MSK" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:53 MSK" name="setUpDao" finished-at="2026-03-30T15:56:53 MSK" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDao -->
-        <test-method signature="testSaveAndFindById()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:53 MSK" name="testSaveAndFindById" finished-at="2026-03-30T15:56:53 MSK" duration-ms="196" status="PASS">
+        <test-method signature="testSaveAndFindById()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:03 MSK" name="testSaveAndFindById" finished-at="2026-04-08T11:12:03 MSK" duration-ms="307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSaveAndFindById -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:53 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:53 MSK" duration-ms="19" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:53 MSK" name="setUpDao" finished-at="2026-03-30T15:56:53 MSK" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:03 MSK" name="setUpDao" finished-at="2026-04-08T11:12:03 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method signature="testUpdate()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:53 MSK" name="testUpdate" finished-at="2026-03-30T15:56:54 MSK" duration-ms="271" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:03 MSK" name="cleanDatabase" finished-at="2026-04-08T11:12:03 MSK" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanDatabase -->
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:03 MSK" name="setUpDao" finished-at="2026-04-08T11:12:03 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDao -->
+        <test-method signature="testUpdate()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:03 MSK" name="testUpdate" finished-at="2026-04-08T11:12:04 MSK" duration-ms="389" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdate -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:54 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:54 MSK" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:04 MSK" name="cleanDatabase" finished-at="2026-04-08T11:12:04 MSK" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="testUpdateDetached()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:54 MSK" name="testUpdateDetached" finished-at="2026-03-30T15:56:54 MSK" duration-ms="334" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUpdateDetached -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:54 MSK" name="setUpDao" finished-at="2026-03-30T15:56:54 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:04 MSK" name="setUpDao" finished-at="2026-04-08T11:12:04 MSK" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:training_center.dao.TeacherDaoTest@7e22550a]" started-at="2026-03-30T15:56:54 MSK" name="tearDownClass" finished-at="2026-03-30T15:56:54 MSK" duration-ms="2" status="PASS">
+        <test-method signature="testUpdateDetached()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:04 MSK" name="testUpdateDetached" finished-at="2026-04-08T11:12:04 MSK" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateDetached -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:training_center.dao.TeacherDaoTest@4bef0fe3]" started-at="2026-04-08T11:12:04 MSK" name="tearDownClass" finished-at="2026-04-08T11:12:04 MSK" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- training_center.dao.TeacherDaoTest -->
       <class name="training_center.dao.CompanyDaoTest">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:training_center.dao.CompanyDaoTest@5b1f29fa]" started-at="2026-03-30T15:56:24 MSK" name="setUpClass" finished-at="2026-03-30T15:56:30 MSK" duration-ms="5981" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:training_center.dao.CompanyDaoTest@1ef3efa8]" started-at="2026-04-08T11:11:33 MSK" name="setUpClass" finished-at="2026-04-08T11:11:39 MSK" duration-ms="6169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CompanyDaoTest@5b1f29fa]" started-at="2026-03-30T15:56:30 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:30 MSK" duration-ms="610" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CompanyDaoTest@1ef3efa8]" started-at="2026-04-08T11:11:39 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:40 MSK" duration-ms="642" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CompanyDaoTest@5b1f29fa]" started-at="2026-03-30T15:56:30 MSK" name="setUpDao" finished-at="2026-03-30T15:56:30 MSK" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDao -->
-        <test-method signature="deleteById_shouldDeleteCompany()[pri:0, instance:training_center.dao.CompanyDaoTest@5b1f29fa]" started-at="2026-03-30T15:56:30 MSK" name="deleteById_shouldDeleteCompany" finished-at="2026-03-30T15:56:31 MSK" duration-ms="392" status="PASS">
+        <test-method signature="deleteById_shouldDeleteCompany()[pri:0, instance:training_center.dao.CompanyDaoTest@1ef3efa8]" started-at="2026-04-08T11:11:40 MSK" name="deleteById_shouldDeleteCompany" finished-at="2026-04-08T11:11:40 MSK" duration-ms="412" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteById_shouldDeleteCompany -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CompanyDaoTest@5b1f29fa]" started-at="2026-03-30T15:56:31 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:31 MSK" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CompanyDaoTest@5b1f29fa]" started-at="2026-03-30T15:56:31 MSK" name="setUpDao" finished-at="2026-03-30T15:56:31 MSK" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CompanyDaoTest@1ef3efa8]" started-at="2026-04-08T11:11:40 MSK" name="setUpDao" finished-at="2026-04-08T11:11:40 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method signature="deleteById_shouldDoNothing_whenCompanyNotExists()[pri:0, instance:training_center.dao.CompanyDaoTest@5b1f29fa]" started-at="2026-03-30T15:56:31 MSK" name="deleteById_shouldDoNothing_whenCompanyNotExists" finished-at="2026-03-30T15:56:31 MSK" duration-ms="271" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CompanyDaoTest@1ef3efa8]" started-at="2026-04-08T11:11:40 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:40 MSK" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanDatabase -->
+        <test-method signature="deleteById_shouldDoNothing_whenCompanyNotExists()[pri:0, instance:training_center.dao.CompanyDaoTest@1ef3efa8]" started-at="2026-04-08T11:11:40 MSK" name="deleteById_shouldDoNothing_whenCompanyNotExists" finished-at="2026-04-08T11:11:40 MSK" duration-ms="258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteById_shouldDoNothing_whenCompanyNotExists -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CompanyDaoTest@5b1f29fa]" started-at="2026-03-30T15:56:31 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:31 MSK" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CompanyDaoTest@5b1f29fa]" started-at="2026-03-30T15:56:31 MSK" name="setUpDao" finished-at="2026-03-30T15:56:31 MSK" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CompanyDaoTest@1ef3efa8]" started-at="2026-04-08T11:11:40 MSK" name="setUpDao" finished-at="2026-04-08T11:11:40 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method signature="delete_shouldRemoveDetachedCompany()[pri:0, instance:training_center.dao.CompanyDaoTest@5b1f29fa]" started-at="2026-03-30T15:56:31 MSK" name="delete_shouldRemoveDetachedCompany" finished-at="2026-03-30T15:56:31 MSK" duration-ms="236" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CompanyDaoTest@1ef3efa8]" started-at="2026-04-08T11:11:40 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:40 MSK" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanDatabase -->
+        <test-method signature="delete_shouldRemoveDetachedCompany()[pri:0, instance:training_center.dao.CompanyDaoTest@1ef3efa8]" started-at="2026-04-08T11:11:40 MSK" name="delete_shouldRemoveDetachedCompany" finished-at="2026-04-08T11:11:41 MSK" duration-ms="236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- delete_shouldRemoveDetachedCompany -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CompanyDaoTest@5b1f29fa]" started-at="2026-03-30T15:56:31 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:31 MSK" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CompanyDaoTest@5b1f29fa]" started-at="2026-03-30T15:56:31 MSK" name="setUpDao" finished-at="2026-03-30T15:56:31 MSK" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CompanyDaoTest@1ef3efa8]" started-at="2026-04-08T11:11:40 MSK" name="setUpDao" finished-at="2026-04-08T11:11:40 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method signature="delete_shouldRemoveManagedCompany()[pri:0, instance:training_center.dao.CompanyDaoTest@5b1f29fa]" started-at="2026-03-30T15:56:31 MSK" name="delete_shouldRemoveManagedCompany" finished-at="2026-03-30T15:56:32 MSK" duration-ms="320" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CompanyDaoTest@1ef3efa8]" started-at="2026-04-08T11:11:41 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:41 MSK" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanDatabase -->
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CompanyDaoTest@1ef3efa8]" started-at="2026-04-08T11:11:41 MSK" name="setUpDao" finished-at="2026-04-08T11:11:41 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDao -->
+        <test-method signature="delete_shouldRemoveManagedCompany()[pri:0, instance:training_center.dao.CompanyDaoTest@1ef3efa8]" started-at="2026-04-08T11:11:41 MSK" name="delete_shouldRemoveManagedCompany" finished-at="2026-04-08T11:11:41 MSK" duration-ms="322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- delete_shouldRemoveManagedCompany -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CompanyDaoTest@5b1f29fa]" started-at="2026-03-30T15:56:32 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:32 MSK" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CompanyDaoTest@1ef3efa8]" started-at="2026-04-08T11:11:41 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:41 MSK" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CompanyDaoTest@5b1f29fa]" started-at="2026-03-30T15:56:32 MSK" name="setUpDao" finished-at="2026-03-30T15:56:32 MSK" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDao -->
-        <test-method signature="findAll_shouldReturnSorted()[pri:0, instance:training_center.dao.CompanyDaoTest@5b1f29fa]" started-at="2026-03-30T15:56:32 MSK" name="findAll_shouldReturnSorted" finished-at="2026-03-30T15:56:32 MSK" duration-ms="207" status="PASS">
+        <test-method signature="findAll_shouldReturnSorted()[pri:0, instance:training_center.dao.CompanyDaoTest@1ef3efa8]" started-at="2026-04-08T11:11:41 MSK" name="findAll_shouldReturnSorted" finished-at="2026-04-08T11:11:41 MSK" duration-ms="224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findAll_shouldReturnSorted -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CompanyDaoTest@5b1f29fa]" started-at="2026-03-30T15:56:32 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:32 MSK" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CompanyDaoTest@1ef3efa8]" started-at="2026-04-08T11:11:41 MSK" name="setUpDao" finished-at="2026-04-08T11:11:41 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDao -->
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CompanyDaoTest@1ef3efa8]" started-at="2026-04-08T11:11:41 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:41 MSK" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="findById_shouldReturnNull_whenCompanyNotExists()[pri:0, instance:training_center.dao.CompanyDaoTest@5b1f29fa]" started-at="2026-03-30T15:56:32 MSK" name="findById_shouldReturnNull_whenCompanyNotExists" finished-at="2026-03-30T15:56:32 MSK" duration-ms="57" status="PASS">
+        <test-method signature="findById_shouldReturnNull_whenCompanyNotExists()[pri:0, instance:training_center.dao.CompanyDaoTest@1ef3efa8]" started-at="2026-04-08T11:11:41 MSK" name="findById_shouldReturnNull_whenCompanyNotExists" finished-at="2026-04-08T11:11:41 MSK" duration-ms="54" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findById_shouldReturnNull_whenCompanyNotExists -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CompanyDaoTest@5b1f29fa]" started-at="2026-03-30T15:56:32 MSK" name="setUpDao" finished-at="2026-03-30T15:56:32 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CompanyDaoTest@1ef3efa8]" started-at="2026-04-08T11:11:41 MSK" name="setUpDao" finished-at="2026-04-08T11:11:41 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CompanyDaoTest@5b1f29fa]" started-at="2026-03-30T15:56:32 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:32 MSK" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CompanyDaoTest@1ef3efa8]" started-at="2026-04-08T11:11:41 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:41 MSK" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="save_and_findById()[pri:0, instance:training_center.dao.CompanyDaoTest@5b1f29fa]" started-at="2026-03-30T15:56:32 MSK" name="save_and_findById" finished-at="2026-03-30T15:56:32 MSK" duration-ms="126" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CompanyDaoTest@1ef3efa8]" started-at="2026-04-08T11:11:41 MSK" name="setUpDao" finished-at="2026-04-08T11:11:41 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDao -->
+        <test-method signature="save_and_findById()[pri:0, instance:training_center.dao.CompanyDaoTest@1ef3efa8]" started-at="2026-04-08T11:11:41 MSK" name="save_and_findById" finished-at="2026-04-08T11:11:42 MSK" duration-ms="142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- save_and_findById -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CompanyDaoTest@5b1f29fa]" started-at="2026-03-30T15:56:32 MSK" name="setUpDao" finished-at="2026-03-30T15:56:32 MSK" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CompanyDaoTest@5b1f29fa]" started-at="2026-03-30T15:56:32 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:32 MSK" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CompanyDaoTest@1ef3efa8]" started-at="2026-04-08T11:11:42 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:42 MSK" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="update_shouldUpdateCompany()[pri:0, instance:training_center.dao.CompanyDaoTest@5b1f29fa]" started-at="2026-03-30T15:56:32 MSK" name="update_shouldUpdateCompany" finished-at="2026-03-30T15:56:32 MSK" duration-ms="223" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- update_shouldUpdateCompany -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CompanyDaoTest@5b1f29fa]" started-at="2026-03-30T15:56:32 MSK" name="setUpDao" finished-at="2026-03-30T15:56:32 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CompanyDaoTest@1ef3efa8]" started-at="2026-04-08T11:11:42 MSK" name="setUpDao" finished-at="2026-04-08T11:11:42 MSK" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:training_center.dao.CompanyDaoTest@5b1f29fa]" started-at="2026-03-30T15:56:32 MSK" name="tearDownClass" finished-at="2026-03-30T15:56:32 MSK" duration-ms="5" status="PASS">
+        <test-method signature="update_shouldUpdateCompany()[pri:0, instance:training_center.dao.CompanyDaoTest@1ef3efa8]" started-at="2026-04-08T11:11:42 MSK" name="update_shouldUpdateCompany" finished-at="2026-04-08T11:11:42 MSK" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_shouldUpdateCompany -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:training_center.dao.CompanyDaoTest@1ef3efa8]" started-at="2026-04-08T11:11:42 MSK" name="tearDownClass" finished-at="2026-04-08T11:11:42 MSK" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- training_center.dao.CompanyDaoTest -->
       <class name="training_center.dao.CourseDaoTest">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:32 MSK" name="setUpClass" finished-at="2026-03-30T15:56:33 MSK" duration-ms="453" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:42 MSK" name="setUpClass" finished-at="2026-04-08T11:11:42 MSK" duration-ms="413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:33 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:33 MSK" duration-ms="94" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:42 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:42 MSK" duration-ms="83" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:33 MSK" name="setUpDao" finished-at="2026-03-30T15:56:33 MSK" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:42 MSK" name="setUpDao" finished-at="2026-04-08T11:11:42 MSK" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method signature="addStudentToCourse_shouldNotDuplicateRelation()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:33 MSK" name="addStudentToCourse_shouldNotDuplicateRelation" finished-at="2026-03-30T15:56:33 MSK" duration-ms="515" status="PASS">
+        <test-method signature="addStudentToCourse_shouldNotDuplicateRelation()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:42 MSK" name="addStudentToCourse_shouldNotDuplicateRelation" finished-at="2026-04-08T11:11:43 MSK" duration-ms="541" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addStudentToCourse_shouldNotDuplicateRelation -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:33 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:33 MSK" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:43 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:43 MSK" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="addStudentToCourse_shouldThrow_whenCourseNotFound()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:33 MSK" name="addStudentToCourse_shouldThrow_whenCourseNotFound" finished-at="2026-03-30T15:56:34 MSK" duration-ms="144" status="PASS">
+        <test-method signature="addStudentToCourse_shouldThrow_whenCourseNotFound()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:43 MSK" name="addStudentToCourse_shouldThrow_whenCourseNotFound" finished-at="2026-04-08T11:11:43 MSK" duration-ms="157" status="PASS">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[Курс с id=999 не найден]]>
@@ -1215,19 +1333,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addStudentToCourse_shouldThrow_whenCourseNotFound -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:33 MSK" name="setUpDao" finished-at="2026-03-30T15:56:33 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:43 MSK" name="setUpDao" finished-at="2026-04-08T11:11:43 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:34 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:34 MSK" duration-ms="23" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:43 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:43 MSK" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:34 MSK" name="setUpDao" finished-at="2026-03-30T15:56:34 MSK" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDao -->
-        <test-method signature="addStudentToCourse_shouldThrow_whenStudentNotFound()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:34 MSK" name="addStudentToCourse_shouldThrow_whenStudentNotFound" finished-at="2026-03-30T15:56:34 MSK" duration-ms="215" status="PASS">
+        <test-method signature="addStudentToCourse_shouldThrow_whenStudentNotFound()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:43 MSK" name="addStudentToCourse_shouldThrow_whenStudentNotFound" finished-at="2026-04-08T11:11:43 MSK" duration-ms="204" status="PASS">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[Обучающийся с id=999 не найден]]>
@@ -1293,23 +1407,31 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addStudentToCourse_shouldThrow_whenStudentNotFound -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:34 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:34 MSK" duration-ms="20" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:34 MSK" name="setUpDao" finished-at="2026-03-30T15:56:34 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:43 MSK" name="setUpDao" finished-at="2026-04-08T11:11:43 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method signature="assignTeacherToCourse_shouldNotDuplicateRelation()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:34 MSK" name="assignTeacherToCourse_shouldNotDuplicateRelation" finished-at="2026-03-30T15:56:34 MSK" duration-ms="536" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assignTeacherToCourse_shouldNotDuplicateRelation -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:34 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:34 MSK" duration-ms="23" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:43 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:43 MSK" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="assignTeacherToCourse_shouldThrow_whenCourseNotFound()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:34 MSK" name="assignTeacherToCourse_shouldThrow_whenCourseNotFound" finished-at="2026-03-30T15:56:35 MSK" duration-ms="223" status="PASS">
+        <test-method signature="assignTeacherToCourse_shouldNotDuplicateRelation()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:43 MSK" name="assignTeacherToCourse_shouldNotDuplicateRelation" finished-at="2026-04-08T11:11:44 MSK" duration-ms="515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignTeacherToCourse_shouldNotDuplicateRelation -->
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:43 MSK" name="setUpDao" finished-at="2026-04-08T11:11:43 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDao -->
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:44 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:44 MSK" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanDatabase -->
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:44 MSK" name="setUpDao" finished-at="2026-04-08T11:11:44 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDao -->
+        <test-method signature="assignTeacherToCourse_shouldThrow_whenCourseNotFound()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:44 MSK" name="assignTeacherToCourse_shouldThrow_whenCourseNotFound" finished-at="2026-04-08T11:11:44 MSK" duration-ms="208" status="PASS">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[Курс с id=999 не найден]]>
@@ -1375,15 +1497,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assignTeacherToCourse_shouldThrow_whenCourseNotFound -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:34 MSK" name="setUpDao" finished-at="2026-03-30T15:56:34 MSK" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:35 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:35 MSK" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:44 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:44 MSK" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="assignTeacherToCourse_shouldThrow_whenTeacherNotFound()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:35 MSK" name="assignTeacherToCourse_shouldThrow_whenTeacherNotFound" finished-at="2026-03-30T15:56:35 MSK" duration-ms="311" status="PASS">
+        <test-method signature="assignTeacherToCourse_shouldThrow_whenTeacherNotFound()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:44 MSK" name="assignTeacherToCourse_shouldThrow_whenTeacherNotFound" finished-at="2026-04-08T11:11:44 MSK" duration-ms="208" status="PASS">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[Преподаватель с id=999 не найден]]>
@@ -1449,191 +1567,191 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assignTeacherToCourse_shouldThrow_whenTeacherNotFound -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:35 MSK" name="setUpDao" finished-at="2026-03-30T15:56:35 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:44 MSK" name="setUpDao" finished-at="2026-04-08T11:11:44 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:35 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:35 MSK" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:44 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:44 MSK" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="deleteById_shouldDeleteCourse()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:35 MSK" name="deleteById_shouldDeleteCourse" finished-at="2026-03-30T15:56:35 MSK" duration-ms="289" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:44 MSK" name="setUpDao" finished-at="2026-04-08T11:11:44 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDao -->
+        <test-method signature="deleteById_shouldDeleteCourse()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:44 MSK" name="deleteById_shouldDeleteCourse" finished-at="2026-04-08T11:11:44 MSK" duration-ms="267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteById_shouldDeleteCourse -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:35 MSK" name="setUpDao" finished-at="2026-03-30T15:56:35 MSK" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:35 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:35 MSK" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:44 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:44 MSK" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="delete_shouldRemoveDetachedCourse()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:35 MSK" name="delete_shouldRemoveDetachedCourse" finished-at="2026-03-30T15:56:36 MSK" duration-ms="502" status="PASS">
+        <test-method signature="delete_shouldRemoveDetachedCourse()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:44 MSK" name="delete_shouldRemoveDetachedCourse" finished-at="2026-04-08T11:11:45 MSK" duration-ms="285" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- delete_shouldRemoveDetachedCourse -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:35 MSK" name="setUpDao" finished-at="2026-03-30T15:56:35 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:44 MSK" name="setUpDao" finished-at="2026-04-08T11:11:44 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:36 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:36 MSK" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:45 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:45 MSK" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="removeStudentFromCourse_shouldDoNothing_whenRelationNotExists()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:36 MSK" name="removeStudentFromCourse_shouldDoNothing_whenRelationNotExists" finished-at="2026-03-30T15:56:36 MSK" duration-ms="333" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:45 MSK" name="setUpDao" finished-at="2026-04-08T11:11:45 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDao -->
+        <test-method signature="removeStudentFromCourse_shouldDoNothing_whenRelationNotExists()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:45 MSK" name="removeStudentFromCourse_shouldDoNothing_whenRelationNotExists" finished-at="2026-04-08T11:11:45 MSK" duration-ms="420" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeStudentFromCourse_shouldDoNothing_whenRelationNotExists -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:36 MSK" name="setUpDao" finished-at="2026-03-30T15:56:36 MSK" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:36 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:36 MSK" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:45 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:45 MSK" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="removeTeacherFromCourse_shouldDoNothing_whenRelationNotExists()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:36 MSK" name="removeTeacherFromCourse_shouldDoNothing_whenRelationNotExists" finished-at="2026-03-30T15:56:37 MSK" duration-ms="500" status="PASS">
+        <test-method signature="removeTeacherFromCourse_shouldDoNothing_whenRelationNotExists()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:45 MSK" name="removeTeacherFromCourse_shouldDoNothing_whenRelationNotExists" finished-at="2026-04-08T11:11:46 MSK" duration-ms="462" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeTeacherFromCourse_shouldDoNothing_whenRelationNotExists -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:36 MSK" name="setUpDao" finished-at="2026-03-30T15:56:36 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:45 MSK" name="setUpDao" finished-at="2026-04-08T11:11:45 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:37 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:37 MSK" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:46 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:46 MSK" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:37 MSK" name="setUpDao" finished-at="2026-03-30T15:56:37 MSK" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:46 MSK" name="setUpDao" finished-at="2026-04-08T11:11:46 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method signature="testAddAndRemoveStudent()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:37 MSK" name="testAddAndRemoveStudent" finished-at="2026-03-30T15:56:37 MSK" duration-ms="478" status="PASS">
+        <test-method signature="testAddAndRemoveStudent()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:46 MSK" name="testAddAndRemoveStudent" finished-at="2026-04-08T11:11:46 MSK" duration-ms="480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddAndRemoveStudent -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:37 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:37 MSK" duration-ms="22" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:46 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:46 MSK" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:37 MSK" name="setUpDao" finished-at="2026-03-30T15:56:37 MSK" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDao -->
-        <test-method signature="testAddStudentAlreadyExists()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:37 MSK" name="testAddStudentAlreadyExists" finished-at="2026-03-30T15:56:38 MSK" duration-ms="587" status="PASS">
+        <test-method signature="testAddStudentAlreadyExists()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:46 MSK" name="testAddStudentAlreadyExists" finished-at="2026-04-08T11:11:47 MSK" duration-ms="460" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddStudentAlreadyExists -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:38 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:38 MSK" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:38 MSK" name="setUpDao" finished-at="2026-03-30T15:56:38 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:46 MSK" name="setUpDao" finished-at="2026-04-08T11:11:46 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method signature="testAssignAndRemoveTeacher()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:38 MSK" name="testAssignAndRemoveTeacher" finished-at="2026-03-30T15:56:38 MSK" duration-ms="466" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:47 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:47 MSK" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanDatabase -->
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:47 MSK" name="setUpDao" finished-at="2026-04-08T11:11:47 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDao -->
+        <test-method signature="testAssignAndRemoveTeacher()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:47 MSK" name="testAssignAndRemoveTeacher" finished-at="2026-04-08T11:11:47 MSK" duration-ms="705" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAssignAndRemoveTeacher -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:38 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:38 MSK" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:47 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:47 MSK" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:38 MSK" name="setUpDao" finished-at="2026-03-30T15:56:38 MSK" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDao -->
-        <test-method signature="testDelete()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:38 MSK" name="testDelete" finished-at="2026-03-30T15:56:38 MSK" duration-ms="268" status="PASS">
+        <test-method signature="testDelete()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:47 MSK" name="testDelete" finished-at="2026-04-08T11:11:48 MSK" duration-ms="285" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDelete -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:38 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:38 MSK" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:38 MSK" name="setUpDao" finished-at="2026-03-30T15:56:38 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:47 MSK" name="setUpDao" finished-at="2026-04-08T11:11:47 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method signature="testDeleteByIdNotExists()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:38 MSK" name="testDeleteByIdNotExists" finished-at="2026-03-30T15:56:39 MSK" duration-ms="116" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:48 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:48 MSK" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanDatabase -->
+        <test-method signature="testDeleteByIdNotExists()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:48 MSK" name="testDeleteByIdNotExists" finished-at="2026-04-08T11:11:48 MSK" duration-ms="121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteByIdNotExists -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:39 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:39 MSK" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:39 MSK" name="setUpDao" finished-at="2026-03-30T15:56:39 MSK" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:48 MSK" name="setUpDao" finished-at="2026-04-08T11:11:48 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method signature="testFindAll()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:39 MSK" name="testFindAll" finished-at="2026-03-30T15:56:39 MSK" duration-ms="205" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:48 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:48 MSK" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanDatabase -->
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:48 MSK" name="setUpDao" finished-at="2026-04-08T11:11:48 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDao -->
+        <test-method signature="testFindAll()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:48 MSK" name="testFindAll" finished-at="2026-04-08T11:11:48 MSK" duration-ms="309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindAll -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:39 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:39 MSK" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:48 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:48 MSK" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="testFindByTitle()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:39 MSK" name="testFindByTitle" finished-at="2026-03-30T15:56:39 MSK" duration-ms="254" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:48 MSK" name="setUpDao" finished-at="2026-04-08T11:11:48 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDao -->
+        <test-method signature="testFindByTitle()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:48 MSK" name="testFindByTitle" finished-at="2026-04-08T11:11:49 MSK" duration-ms="399" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindByTitle -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:39 MSK" name="setUpDao" finished-at="2026-03-30T15:56:39 MSK" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:39 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:39 MSK" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:49 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:49 MSK" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="testFindByTitleEmpty()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:39 MSK" name="testFindByTitleEmpty" finished-at="2026-03-30T15:56:39 MSK" duration-ms="58" status="PASS">
+        <test-method signature="testFindByTitleEmpty()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:49 MSK" name="testFindByTitleEmpty" finished-at="2026-04-08T11:11:49 MSK" duration-ms="58" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindByTitleEmpty -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:39 MSK" name="setUpDao" finished-at="2026-03-30T15:56:39 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:49 MSK" name="setUpDao" finished-at="2026-04-08T11:11:49 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:39 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:39 MSK" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:49 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:49 MSK" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:39 MSK" name="setUpDao" finished-at="2026-03-30T15:56:39 MSK" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDao -->
-        <test-method signature="testGetScheduleByCourseId()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:39 MSK" name="testGetScheduleByCourseId" finished-at="2026-03-30T15:56:40 MSK" duration-ms="451" status="PASS">
+        <test-method signature="testGetScheduleByCourseId()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:49 MSK" name="testGetScheduleByCourseId" finished-at="2026-04-08T11:11:49 MSK" duration-ms="428" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetScheduleByCourseId -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:40 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:40 MSK" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:49 MSK" name="setUpDao" finished-at="2026-04-08T11:11:49 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDao -->
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:49 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:49 MSK" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method signature="testSaveAndFindById()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:40 MSK" name="testSaveAndFindById" finished-at="2026-03-30T15:56:40 MSK" duration-ms="197" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:49 MSK" name="setUpDao" finished-at="2026-04-08T11:11:49 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDao -->
+        <test-method signature="testSaveAndFindById()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:49 MSK" name="testSaveAndFindById" finished-at="2026-04-08T11:11:49 MSK" duration-ms="204" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSaveAndFindById -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:40 MSK" name="setUpDao" finished-at="2026-03-30T15:56:40 MSK" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDao -->
-        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:40 MSK" name="cleanDatabase" finished-at="2026-03-30T15:56:40 MSK" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="cleanDatabase()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:49 MSK" name="cleanDatabase" finished-at="2026-04-08T11:11:49 MSK" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanDatabase -->
-        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:40 MSK" name="setUpDao" finished-at="2026-03-30T15:56:40 MSK" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUpDao()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:49 MSK" name="setUpDao" finished-at="2026-04-08T11:11:49 MSK" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDao -->
-        <test-method signature="testUpdate()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:40 MSK" name="testUpdate" finished-at="2026-03-30T15:56:40 MSK" duration-ms="294" status="PASS">
+        <test-method signature="testUpdate()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:49 MSK" name="testUpdate" finished-at="2026-04-08T11:11:50 MSK" duration-ms="274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdate -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:training_center.dao.CourseDaoTest@77a98a6a]" started-at="2026-03-30T15:56:40 MSK" name="tearDownClass" finished-at="2026-03-30T15:56:40 MSK" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:training_center.dao.CourseDaoTest@79da1ec0]" started-at="2026-04-08T11:11:50 MSK" name="tearDownClass" finished-at="2026-04-08T11:11:50 MSK" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
