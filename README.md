@@ -260,7 +260,6 @@
 ![Результаты тестов](assets/tests.jpg "Результаты тестов")
 ## Отчет о покрытии:
 [Открыть HTML-отчет](https://dartberror.github.io/wtpractice/) <br> <br> <br> 
-см. папку training_center_clean
 
 ## Сценарии системного тестирования
 ### Что покрывают системные тесты
@@ -415,5 +414,6 @@
 3. Запустить Tomcat и развернуть приложение.
 4. Выполнить `mvn test`.
 5. Открыть `target/surefire-reports/index.html`.
-6. Выполнить `ant -f build.xml full-build-and-deploy`.
+6. Выполнить `ant -f build.xml full-build-and-deploy`. <br>
 
+см. папку training_center_clean
