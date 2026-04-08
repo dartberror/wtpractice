@@ -18,7 +18,10 @@ import jakarta.persistence.EntityManagerFactory;
 
 @Configuration
 @EnableTransactionManagement
-@ComponentScan(basePackages = "training_center")
+@ComponentScan(basePackages = {
+        "training_center.dao",
+        "training_center.service"
+})
 public class PersistenceConfig {
     @Bean
     public DataSource dataSource() {

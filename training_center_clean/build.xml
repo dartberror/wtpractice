@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="training_center_clean" default="full-build-and-deploy" basedir=".">
+
+    <property name="maven.cmd" value="mvn.cmd"/>
+    <property name="app.name" value="training_center_clean"/>
+    <property name="tomcat.deploy.dir" value="C:/tomcat/wtpwebapps"/>
+    <property name="war.path" value="${basedir}/target/${app.name}.war"/>
+
+    <target name="clean">
+        <exec executable="${maven.cmd}" failonerror="true">
+            <arg value="clean"/>
+        </exec>
+    </target>
+
+    <target name="compile">
+        <exec executable="${maven.cmd}" failonerror="true">
+            <arg value="-DskipTests"/>
+            <arg value="compile"/>
+        </exec>
+    </target>
+
+    <target name="unit-tests">
+        <exec executable="${maven.cmd}" failonerror="true">
+            <arg value="test"/>
+        </exec>
+    </target>
+
+    <target name="system-tests">
+        <exec executable="${maven.cmd}" failonerror="true">
+            <arg value="-Dtest=training_center.system.WebSystemTest"/>
+            <arg value="test"/>
+        </exec>
+    </target>
+
+    <target name="package">
+        <exec executable="${maven.cmd}" failonerror="true">
+            <arg value="-DskipTests"/>
+            <arg value="package"/>
+        </exec>
+    </target>
+
+    <target name="verify">
+        <exec executable="${maven.cmd}" failonerror="true">
+            <arg value="verify"/>
+        </exec>
+    </target>
+
+    <target name="deploy-war" depends="package">
+        <mkdir dir="${tomcat.deploy.dir}"/>
+        <copy file="${war.path}" tofile="${tomcat.deploy.dir}/${app.name}.war" overwrite="true"/>
+    </target>
+
+    <target name="full-build-and-deploy" depends="clean,unit-tests,system-tests,package,deploy-war"/>
+
+</project>
