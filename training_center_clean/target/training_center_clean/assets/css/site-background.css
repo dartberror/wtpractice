@@ -1,0 +1,32 @@
+body.bg-light {
+    background-image:
+            linear-gradient(rgba(255, 255, 255, 0.72), rgba(255, 255, 255, 0.72)),
+            url("../images/fon.png");
+    background-repeat: repeat;
+    background-size: 900px auto;
+    background-attachment: fixed;
+}
+
+.navbar-brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-brand::before {
+    content: "";
+    width: 104px;
+    height: 104px;
+    display: inline-block;
+    flex: 0 0 auto;
+    background-image: url("../images/site_logo_2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.card,
+.navbar,
+.table {
+    backdrop-filter: blur(1px);
+}
